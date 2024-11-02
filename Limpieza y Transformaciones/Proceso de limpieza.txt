@@ -1,0 +1,37 @@
+1) Eliminar los siguientes datasets:
+    game_summary (contiene informacion de la transmision, no contiene informacion de la audiencia que seria util)
+    officials (contiene informacion acerca de los arbitros, no relevante)
+    team_history (contiene informacion acerca de la historia del club, no relevante)
+    team_info_common (no contiene registros)
+2) Eliminar las siguientes columnas:
+    first_name  (redundante)    Dataframes: (common_player_info, draft_combine_stats, inactive_players, player)
+    last_name   (redundante)    Dataframes: (common_player_info, draft_combine_stats, inactive_players, player)
+    display_fi_last (redundante) Dataframes: (common_player_info)
+    display_last_comma_first (redundante) Dataframes: (common_player_info)
+    player_slug (redundante)    Dataframes: (common_player_info)
+    facebook    (irrelevante)   Dataframes: (team_details)
+    instagram   (irrelevante)   Dataframes: (team_details)
+    twitter     (irrelevante)   Dataframes: (team_details)
+    neutral_description (columna casi vacia) Dataframes: (play_by_play)
+3) Filtrar todos los dataframes por "season" > 1999 y "season_id" > 21999 y quedarse solo con registros
+    posteriores a la temporada 2000.
+4) Nombrar de manera igual las siguientes columnas que contienen los mismos atributos:
+    (common_player_info, draft_history).person_id ==> (draft_combine_stats, inactive_players).player_id
+    (common_player_info).display_first_last ==> (draft_combine_stats, draft_history)player_name
+    (common_player_info).draft_round ==> (draft_history).round_pick
+
+5) Especificar los nombres de columnas que son ambiguos y contienen diferentes atributos en distintas tablas
+    (team).id ==> (team).team_id
+    (player).id ==> (player).player_id
+    (team).full_name ==> team_name
+    (player).full_name ==> player_name
+6) Crear una mascara de solo los "team_id" que tienen datos en el dataframe "draft_combine_stats" (o sea
+    que tienen stats de los drafteos) y usar esa mascara para filtrar el resto de los dataframes por "team_id".
+7) Crear una mascara de solo los "player_id" que tienen datos en el dataframe "draft_combine_stats" (o sea
+    que tienen stats de los drafteos) y usar esa mascara para filtrar el dataset "play_by_play" por "player_id"
+
+Integridad de los datos 
+8) Llenar valores nulos con el metodo que corresponda y evaluar si ante un exceso de datos nulos conviene 
+    eliminar registros/columnas
+9) Verificar que los datos sean consistentes
+
