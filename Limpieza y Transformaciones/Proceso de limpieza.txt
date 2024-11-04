@@ -14,7 +14,8 @@
     twitter     (irrelevante)   Dataframes: (team_details)
     neutral_description (columna casi vacia) Dataframes: (play_by_play)
 3) Filtrar todos los dataframes por "season" > 1999 y "season_id" > 21999 y quedarse solo con registros
-    posteriores a la temporada 2000.
+    posteriores a la temporada 2000. Luego tambien filtrar por los jugadores con datos en draft_combine_stats.
+    Luego filtrar el resto de los dataframes por los ids de las tablas filtradas.
 4) Nombrar de manera igual las siguientes columnas que contienen los mismos atributos:
     (common_player_info, draft_history).person_id ==> (draft_combine_stats, inactive_players).player_id
     (common_player_info).display_first_last ==> (draft_combine_stats, draft_history)player_name
@@ -25,13 +26,10 @@
     (player).id ==> (player).player_id
     (team).full_name ==> team_name
     (player).full_name ==> player_name
-6) Crear una mascara de solo los "team_id" que tienen datos en el dataframe "draft_combine_stats" (o sea
-    que tienen stats de los drafteos) y usar esa mascara para filtrar el resto de los dataframes por "team_id".
-7) Crear una mascara de solo los "player_id" que tienen datos en el dataframe "draft_combine_stats" (o sea
-    que tienen stats de los drafteos) y usar esa mascara para filtrar el dataset "play_by_play" por "player_id"
+
 
 Integridad de los datos 
-8) Llenar valores nulos con el metodo que corresponda y evaluar si ante un exceso de datos nulos conviene 
+6) Llenar valores nulos con el metodo que corresponda y evaluar si ante un exceso de datos nulos conviene 
     eliminar registros/columnas
-9) Verificar que los datos sean consistentes
+7) Verificar que los datos sean consistentes
 
