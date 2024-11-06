@@ -18,8 +18,6 @@ Flujo de trabajo: 1. Fase de Exploración de Datos. 2. Fase de Análisis. 3. Vis
 ### Viernes 1 de noviembre
 La propuesta "Análisis de datos del Draft de la NBA para la mejora en el reclutamiento de Sacramento Kings" es aprobada por el cliente y el equipo de trabajo realiza su primera reunión para establecer el flujo de trabajo para las dos semanas estipuladas para el desarrollo.
 
-![Tablero Scrum](Imágenes/Tablero_Scrum.png)
-
 ### Sábado 2 de noviembre a martes 5 de noviembre
 
 ETL
