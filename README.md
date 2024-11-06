@@ -18,7 +18,7 @@ Flujo de trabajo: 1. Fase de Exploración de Datos. 2. Fase de Análisis. 3. Vis
 ### Viernes 1 de noviembre
 La propuesta "Análisis de datos del Draft de la NBA para la mejora en el reclutamiento de Sacramento Kings" es aprobada por el cliente y el equipo de trabajo realiza su primera reunión para establecer el flujo de trabajo para las dos semanas estipuladas para el desarrollo.
 
-![Tablero Scrum](C:\Users\gkloc\Downloads\Henry\Tablero_Scrum)
+![Tablero Scrum](Imágenes/Tablero_Scrum.png)
 
 ### Sábado 2 de noviembre a martes 5 de noviembre
 
@@ -42,7 +42,7 @@ Creación el Diagrama de Entidad Relación (DER)
 
 (Carpeta) Limpieza y transformaciones: - .ipynb con 1er limpieza y filtro - .txt con descripción de la primer limpieza - .ipynb con transformación de los .csv filtrados a .xlsx (con columnas en formato adecuado) - .ipynb con exportación de los .csv filtrados a una BD vacia previamente creada en SQL Server
 
-# Martes 5 de noviembre y miércoles 6 de noviembre
+### Martes 5 de noviembre y miércoles 6 de noviembre
 
 EDA
 
