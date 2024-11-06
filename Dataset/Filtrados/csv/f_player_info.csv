@@ -1,0 +1,157 @@
+,player_id,player_name,birthdate,school,country,last_affiliation,season_exp,jersey,rosterstatus,games_played_current_season_flag,team_id,team_name,team_abbreviation,team_code,team_city,playercode,from_year,to_year,dleague_flag,nba_flag,games_played_flag,round_pick,draft_number,greatest_75_flag,is_active
+0,203919,Jordan Adams,1994-07-08,UCLA,USA,UCLA/USA,3.0,3,Inactive,N,1610612763,Grizzlies,MEM,grizzlies,Memphis,jordan_adams,2014.0,2015.0,Y,Y,Y,1,22,N,0
+1,203500,Steven Adams,1993-07-20,Pittsburgh,New Zealand,Pittsburgh/New Zealand,10.0,4,Active,N,1610612763,Grizzlies,MEM,grizzlies,Memphis,steven_adams,2013.0,2023.0,N,Y,Y,1,12,N,1
+2,1628959,Rawle Alkins,1997-10-29,Arizona,USA,Arizona/USA,2.0,20,Inactive,N,1610612741,Bulls,CHI,bulls,Chicago,rawle_alkins,2018.0,2018.0,Y,Y,Y,Undrafted,Undrafted,N,0
+3,1628443,Kadeem Allen,1993-01-15,Arizona,USA,Arizona/USA,3.0,0,Inactive,N,0,0,0,0,0,kadeem_allen,2017.0,2019.0,Y,Y,Y,2,53,N,0
+4,1626147,Justin Anderson,1993-11-19,Virginia,USA,Virginia/USA,7.0,0,Inactive,N,0,0,0,0,0,justin_anderson,2015.0,2021.0,Y,Y,Y,1,21,N,0
+5,1628961,Kostas Antetokounmpo,1997-11-20,University of Dayton,Greece,Dayton/Greece,4.0,37,Inactive,N,1610612747,Lakers,LAL,lakers,Los Angeles,kostas_antetokounmpo,2018.0,2020.0,Y,Y,Y,2,60,N,1
+6,203648,Thanasis Antetokounmpo,1992-07-18,Panathinaikos,Greece,Panathinaikos/Greece,5.0,43,Active,N,1610612749,Bucks,MIL,bucks,Milwaukee,thanasis_antetokounmpo,2015.0,2023.0,Y,Y,Y,2,51,N,1
+7,1628503,Jamel Artis,1993-01-12,Pittsburgh,USA,Pittsburgh/USA,2.0,0,Inactive,N,1610612753,Magic,ORL,magic,Orlando,jamel_artis,2017.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+8,1629646,Charles Bassey,2000-10-28,Western Kentucky,Nigeria,Western Kentucky/Nigeria,2.0,28,Active,N,1610612759,Spurs,SAS,spurs,San Antonio,charles_bassey,2021.0,2023.0,Y,Y,Y,2,53,N,1
+9,1629647,Darius Bazley,2000-06-12,Princeton HS (OH),USA,Princeton HS (OH)/USA,4.0,55,Active,N,1610612756,Suns,PHX,suns,Phoenix,darius_bazley,2019.0,2023.0,N,Y,Y,1,23,N,1
+10,1628395,Jordan Bell,1995-01-07,Oregon,USA,Oregon/USA,5.0,0,Inactive,N,0,0,0,0,0,jordan_bell,2017.0,2021.0,Y,Y,Y,2,38,N,0
+11,203920,Khem Birch,1992-09-28,UNLV,Canada,UNLV/Canada,6.0,24,Active,N,1610612759,Spurs,SAS,spurs,San Antonio,khem_birch,2017.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+12,1628417,Jaron Blossomgame,1993-09-16,Clemson,USA,Clemson/USA,2.0,4,Inactive,N,1610612739,Cavaliers,CLE,cavaliers,Cleveland,jaron_blossomgame,2018.0,2018.0,Y,Y,Y,2,59,N,0
+13,203505,Vander Blue,1992-07-17,Marquette,USA,Marquette/USA,3.0,0,Inactive,N,0,0,0,0,0,vander_blue,2013.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+14,1629648,Jordan Bone,1997-11-05,Tennessee,USA,Tennessee/USA,2.0,0,Inactive,N,0,0,0,0,0,jordan_bone,2019.0,2020.0,Y,Y,Y,2,57,N,0
+15,1628968,Brian Bowen II,1998-10-02,0,USA,Sydney Kings/USA,3.0,0,Inactive,N,0,0,0,0,0,brian_bowen_ii,2019.0,2020.0,Y,Y,Y,Undrafted,Undrafted,N,0
+16,1629065,Ky Bowman,1997-06-16,Boston College,USA,Boston College/USA,2.0,12,Inactive,N,1610612744,Warriors,GSW,warriors,Golden State,ky_bowman,2019.0,2019.0,Y,Y,Y,Undrafted,Undrafted,N,0
+17,1628396,Tony Bradley,1998-01-08,North Carolina,USA,North Carolina/USA,6.0,0,Inactive,N,0,0,0,0,0,tony_bradley,2017.0,2022.0,Y,Y,Y,1,28,N,1
+18,1629649,Ignas Brazdeikis,1999-01-08,Michigan,Canada,Michigan/Canada,4.0,17,Inactive,N,1610612753,Magic,ORL,magic,Orlando,ignas_brazdeikis,2019.0,2021.0,Y,Y,Y,2,47,N,0
+19,1628515,Isaiah Briscoe,1996-04-13,Kentucky,USA,Kentucky/USA,1.0,0,Inactive,N,0,0,0,0,0,isaiah_briscoe,2018.0,2018.0,Y,Y,Y,Undrafted,Undrafted,N,0
+20,1629052,Oshae Brissett,1998-06-20,Syracuse,Canada,Syracuse/Canada,4.0,12,Active,N,1610612754,Pacers,IND,pacers,Indiana,oshae_brissett,2019.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+21,1628415,Dillon Brooks,1996-01-22,Oregon,Canada,Oregon/Canada,6.0,24,Active,N,1610612763,Grizzlies,MEM,grizzlies,Memphis,dillon_brooks,2017.0,2023.0,N,Y,Y,2,45,N,1
+22,1626148,Anthony Brown,1992-10-10,Stanford,USA,Stanford/USA,4.0,3,Inactive,N,1610612747,Lakers,LAL,lakers,Los Angeles,anthony_brown,2015.0,2017.0,Y,Y,Y,2,34,N,0
+23,203913,Jabari Brown,1992-12-18,Missouri,USA,Missouri/USA,2.0,15,Inactive,N,1610612747,Lakers,LAL,lakers,Los Angeles,jabari_brown,2014.0,2014.0,Y,Y,Y,0,0,N,0
+24,203485,Lorenzo Brown,1990-08-26,North Carolina State,USA,North Carolina State/USA,5.0,0,Inactive,N,0,0,0,0,0,lorenzo_brown,2013.0,2018.0,Y,Y,Y,2,52,N,0
+25,203900,Markel Brown,1992-01-29,Oklahoma State,USA,Oklahoma State/USA,4.0,26,Inactive,N,1610612751,Nets,BKN,nets,Brooklyn,markel_brown,2014.0,2017.0,Y,Y,Y,2,44,N,0
+26,203493,Reggie Bullock,1991-03-16,North Carolina,USA,North Carolina/USA,10.0,25,Active,N,1610612742,Mavericks,DAL,mavericks,Dallas,reggie_bullock,2013.0,2023.0,Y,Y,Y,1,25,N,1
+27,203484,Kentavious Caldwell-Pope,1993-02-18,Georgia,USA,Georgia/USA,10.0,5,Active,N,1610612743,Nuggets,DEN,nuggets,Denver,kentavious_caldwell-pope,2013.0,2023.0,N,Y,Y,1,8,N,1
+28,203477,Isaiah Canaan,1991-05-21,Murray State,USA,Murray State/USA,6.0,0,Inactive,N,0,0,0,0,0,isaiah_canaan,2013.0,2018.0,Y,Y,Y,2,34,N,0
+29,1628975,Jevon Carter,1995-09-14,West Virginia,USA,West Virginia/USA,5.0,5,Active,N,1610612749,Bucks,MIL,bucks,Milwaukee,jevon_carter,2018.0,2023.0,Y,Y,Y,2,32,N,1
+30,1626176,Rakeem Christmas,1991-12-01,Syracuse,USA,Syracuse/USA,3.0,25,Inactive,N,1610612754,Pacers,IND,pacers,Indiana,rakeem_christmas,2015.0,2016.0,Y,Y,Y,2,36,N,0
+31,203902,Semaj Christon,1992-11-01,Xavier,USA,Xavier/USA,2.0,6,Inactive,N,1610612760,Thunder,OKC,thunder,Oklahoma City,semaj_christon,2016.0,2016.0,Y,Y,Y,2,55,N,0
+32,1629634,Brandon Clarke,1996-09-19,Gonzaga,Canada,Gonzaga/Canada,4.0,15,Active,N,1610612763,Grizzlies,MEM,grizzlies,Memphis,brandon_clarke,2019.0,2023.0,N,Y,Y,1,21,N,1
+33,203903,Jordan Clarkson,1992-06-07,Missouri,USA,Missouri/USA,9.0,00,Active,N,1610612762,Jazz,UTA,jazz,Utah,jordan_clarkson,2014.0,2023.0,Y,Y,Y,2,46,N,1
+34,1629651,Nic Claxton,1999-04-17,Georgia,USA,Georgia/USA,4.0,33,Active,N,1610612751,Nets,BKN,nets,Brooklyn,nicolas_claxton,2019.0,2023.0,Y,Y,Y,2,31,N,1
+35,1628381,John Collins,1997-09-23,Wake Forest,USA,Wake Forest/USA,6.0,20,Active,N,1610612737,Hawks,ATL,hawks,Atlanta,john_collins,2017.0,2023.0,N,Y,Y,1,19,N,1
+36,1626192,Pat Connaughton,1993-01-06,Notre Dame,USA,Notre Dame/USA,8.0,24,Active,N,1610612749,Bucks,MIL,bucks,Milwaukee,pat_connaughton,2015.0,2023.0,N,Y,Y,2,41,N,1
+37,1626188,Quinn Cook,1993-03-23,Duke,USA,Duke/USA,6.0,0,Inactive,N,0,0,0,0,0,quinn_cook,2016.0,2020.0,Y,Y,Y,Undrafted,Undrafted,N,1
+38,203496,Robert Covington,1990-12-14,Tennessee State,USA,Tennessee State/USA,10.0,23,Active,N,1610612746,Clippers,LAC,clippers,LA,robert_covington,2013.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+39,203459,Allen Crabbe,1992-04-09,California,USA,California/USA,7.0,0,Inactive,N,0,0,0,0,0,allen_crabbe,2013.0,2019.0,Y,Y,Y,2,31,N,0
+40,203561,Brandon Davies,1991-07-25,Brigham Young,USA,Brigham Young/USA,2.0,0,Inactive,N,0,0,0,0,0,brandon_davies,2013.0,2014.0,N,Y,Y,Undrafted,Undrafted,N,0
+41,1629056,Terence Davis,1997-05-16,Mississippi,USA,Mississippi/USA,4.0,3,Active,N,1610612758,Kings,SAC,kings,Sacramento,terence_davis,2019.0,2023.0,N,Y,Y,Undrafted,Undrafted,N,1
+42,203473,Dewayne Dedmon,1989-08-12,Southern California,USA,Southern California/USA,10.0,14,Active,N,1610612755,76ers,PHI,sixers,Philadelphia,dewayne_dedmon,2013.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+43,1628978,Donte DiVincenzo,1997-01-31,Villanova,USA,Villanova/USA,5.0,0,Active,N,1610612744,Warriors,GSW,warriors,Golden State,donte_divincenzo,2018.0,2023.0,Y,Y,Y,1,17,N,1
+44,1628416,Tyler Dorsey,1996-02-18,Oregon,USA,Oregon/USA,3.0,0,Inactive,N,0,0,0,0,0,tyler_dorsey,2017.0,2022.0,Y,Y,Y,2,41,N,1
+45,1628422,Damyean Dotson,1994-05-06,Houston,USA,Houston/USA,5.0,0,Inactive,N,0,0,0,0,0,damyean_dotson,2017.0,2021.0,Y,Y,Y,2,44,N,0
+46,1629653,Devon Dotson,1999-08-02,Kansas,USA,Kansas/USA,3.0,0,Inactive,N,0,0,0,0,0,devon_dotson,2020.0,2022.0,Y,Y,Y,Undrafted,Undrafted,N,1
+47,1628408,PJ Dozier,1996-10-25,South Carolina,USA,South Carolina/USA,6.0,35,Active,N,1610612758,Kings,SAC,kings,Sacramento,pj_dozier,2017.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+48,203921,Cleanthony Early,1991-04-17,Wichita State,USA,Wichita State/USA,3.0,11,Inactive,N,1610612752,Knicks,NYK,knicks,New York,cleanthony_early,2014.0,2015.0,Y,Y,Y,2,34,N,0
+49,1629035,Carsen Edwards,1998-03-12,Purdue,USA,Purdue/USA,4.0,4,Inactive,N,1610612765,Pistons,DET,pistons,Detroit,carsen_edwards,2019.0,2021.0,Y,Y,Y,2,33,N,0
+50,203516,James Ennis III,1990-07-01,Cal State-Long Beach,USA,California State-Long Beach/USA,8.0,0,Inactive,N,0,0,0,0,0,james_ennis_iii,2014.0,2021.0,Y,Y,Y,2,50,N,0
+51,1629605,Tacko Fall,1995-12-10,UCF,Senegal,Central Florida/Senegal,3.0,0,Inactive,N,0,0,0,0,0,tacko_fall,2019.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+52,203467,Carrick Felix,1990-08-17,Arizona State,USA,Arizona State/USA,2.0,30,Inactive,N,1610612739,Cavaliers,CLE,cavaliers,Cleveland,carrick_felix,2013.0,2013.0,Y,Y,Y,2,33,N,0
+53,1628981,Bruno Fernando,1998-08-15,Maryland,Angola,Maryland/Angola,4.0,0,Active,N,1610612737,Hawks,ATL,hawks,Atlanta,bruno_fernando,2019.0,2023.0,Y,Y,Y,2,34,N,1
+54,1626187,Michael Frazier II,1994-03-08,Florida,USA,Florida/USA,2.0,21,Inactive,N,1610612745,Rockets,HOU,rockets,Houston,michael_frazier,2018.0,2019.0,Y,Y,Y,Undrafted,Undrafted,N,0
+55,203497,Rudy Gobert,1992-06-26,Cholet,France,Cholet/France,10.0,27,Active,N,1610612750,Timberwolves,MIN,timberwolves,Minnesota,rudy_gobert,2013.0,2023.0,Y,Y,Y,1,27,N,1
+56,203462,Archie Goodwin,1994-08-17,Kentucky,USA,Kentucky/USA,5.0,10,Inactive,N,1610612756,Suns,PHX,suns,Phoenix,archie_goodwin,2013.0,2016.0,Y,Y,Y,1,29,N,0
+57,1628984,Devonte' Graham,1995-02-22,Kansas,USA,Kansas/USA,5.0,4,Active,N,1610612759,Spurs,SAS,spurs,San Antonio,devonte_graham,2018.0,2023.0,Y,Y,Y,2,34,N,1
+58,1626203,Treveon Graham,1993-10-28,Virginia Commonwealth,USA,Virginia Commonwealth/USA,5.0,2,Inactive,N,1610612766,Hornets,CHA,hornets,Charlotte,treveon_graham,2016.0,2019.0,Y,Y,Y,Undrafted,Undrafted,N,0
+59,203475,Erick Green,1991-05-09,Virginia Tech,USA,Virginia Tech/USA,2.0,0,Inactive,N,0,0,0,0,0,erick_green,2014.0,2015.0,Y,Y,Y,2,46,N,0
+60,1629656,Quentin Grimes,2000-05-08,Houston,USA,Houston/USA,2.0,6,Active,N,1610612752,Knicks,NYK,knicks,New York,quentin_grimes,2021.0,2023.0,N,Y,Y,1,25,N,1
+61,203798,PJ Hairston,1992-12-24,North Carolina,USA,North Carolina/USA,3.0,19,Inactive,N,1610612766,Hornets,CHA,hornets,Charlotte,pj_hairston,2014.0,2015.0,Y,Y,Y,1,26,N,0
+62,203501,Tim Hardaway Jr.,1992-03-16,Michigan,USA,Michigan/USA,10.0,11,Active,N,1610612742,Mavericks,DAL,mavericks,Dallas,tim_hardaway_jr,2013.0,2023.0,Y,Y,Y,1,24,N,1
+63,1629607,Jared Harper,1997-09-14,Auburn,USA,Auburn/USA,4.0,2,Inactive,N,1610612740,Pelicans,NOP,pelicans,New Orleans,jared_harper,2019.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+64,203925,Joe Harris,1991-09-06,Virginia,USA,Virginia/USA,9.0,12,Active,N,1610612751,Nets,BKN,nets,Brooklyn,joe_harris,2014.0,2023.0,Y,Y,Y,2,33,N,1
+65,1626151,Aaron Harrison,1994-10-28,Kentucky,USA,Kentucky/USA,3.0,9,Inactive,N,1610612766,Hornets,CHA,hornets,Charlotte,aaron_harrison,2015.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+66,1626150,Andrew Harrison,1994-10-28,Kentucky,USA,Kentucky/USA,4.0,0,Inactive,N,0,0,0,0,0,andrew_harrison,2016.0,2018.0,Y,Y,Y,2,44,N,0
+67,1628502,Nigel Hayes,1994-12-16,Wisconsin,USA,Wisconsin/USA,1.0,40,Inactive,N,1610612758,Kings,SAC,kings,Sacramento,nigel_hayes,2017.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+68,1629608,Dewan Hernandez,1996-12-09,Miami (FL),USA,Miami/USA,2.0,20,Inactive,N,1610612761,Raptors,TOR,raptors,Toronto,dewan_hernandez,2019.0,2019.0,Y,Y,Y,2,59,N,0
+69,1628987,Kevin Hervey,1996-07-09,Texas-Arlington,USA,Texas-Arlington/USA,2.0,15,Inactive,N,1610612760,Thunder,OKC,thunder,Oklahoma City,kevin_hervey,2019.0,2019.0,Y,Y,Y,2,57,N,0
+70,1628439,Isaiah Hicks,1994-07-24,North Carolina,USA,North Carolina/USA,3.0,4,Inactive,N,1610612752,Knicks,NYK,knicks,New York,isaiah_hicks,2017.0,2018.0,Y,Y,Y,Undrafted,Undrafted,N,0
+71,203524,Solomon Hill,1991-03-18,Arizona,USA,Arizona/USA,9.0,0,Inactive,N,0,0,0,0,0,solomon_hill,2013.0,2021.0,Y,Y,Y,1,23,N,0
+72,1629658,Jaylen Hoard,1999-03-30,Wake Forest,France,Wake Forest/France,3.0,0,Inactive,N,0,0,0,0,0,jalen_hoard,2019.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+73,1628988,Aaron Holiday,1996-09-30,UCLA,USA,UCLA/USA,5.0,3,Active,N,1610612737,Hawks,ATL,hawks,Atlanta,aaron_holiday,2018.0,2023.0,N,Y,Y,1,23,N,1
+74,1626158,Richaun Holmes,1993-10-15,Bowling Green,USA,Bowling Green/USA,8.0,22,Active,N,1610612758,Kings,SAC,kings,Sacramento,richaun_holmes,2015.0,2023.0,Y,Y,Y,2,37,N,1
+75,203918,Rodney Hood,1992-10-20,Duke,USA,Duke/USA,9.0,22,Inactive,N,1610612746,Clippers,LAC,clippers,LA,rodney_hood,2014.0,2021.0,N,Y,Y,1,23,N,0
+76,1626205,Vincent Hunter,1994-08-05,Texas-El Paso,USA,Texas-El Paso/USA,1.0,0,Inactive,N,0,0,0,0,0,vincent_hunter,2017.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+77,1628411,Wes Iwundu,1994-12-20,Kansas State,USA,Kansas State/USA,6.0,0,Inactive,N,0,0,0,0,0,wes_iwundu,2017.0,2021.0,Y,Y,Y,2,33,N,0
+78,203510,Pierre Jackson,1991-08-29,Baylor,USA,Baylor/USA,1.0,0,Inactive,N,0,0,0,0,0,pierre_jackson,2016.0,2016.0,Y,Y,Y,2,42,N,0
+79,203928,Cory Jefferson,1990-12-26,Baylor,USA,Baylor/USA,3.0,0,Inactive,N,0,0,0,0,0,cory_jefferson,2014.0,2015.0,Y,Y,Y,2,60,N,0
+80,1629610,DaQuan Jeffries,1997-08-30,Tulsa,USA,Tulsa/USA,4.0,8,Active,N,1610612752,Knicks,NYK,knicks,New York,daquan_jeffries,2019.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+81,203910,Nick Johnson,1992-12-22,Arizona,USA,Arizona/USA,2.0,3,Inactive,N,1610612745,Rockets,HOU,rockets,Houston,nick_johnson,2014.0,2014.0,Y,Y,Y,2,42,N,0
+82,1628994,George King,1994-01-15,Colorado,USA,Colorado Boulder/USA,2.0,0,Inactive,N,0,0,0,0,0,george_king,2018.0,2021.0,Y,Y,Y,2,59,N,0
+83,1629663,Louis King,1999-04-06,Oregon,USA,Oregon/USA,4.0,23,Active,N,1610612755,76ers,PHI,sixers,Philadelphia,louis_king,2019.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,0
+84,203945,Alex Kirk,1991-11-14,New Mexico,USA,New Mexico/USA,1.0,0,Inactive,N,0,0,0,0,0,alex_kirk,2014.0,2014.0,Y,Y,Y,Undrafted,Undrafted,N,0
+85,203897,Zach LaVine,1995-03-10,UCLA,USA,UCLA/USA,9.0,8,Active,N,1610612741,Bulls,CHI,bulls,Chicago,zach_lavine,2014.0,2023.0,N,Y,Y,1,13,N,1
+86,203499,Shane Larkin,1992-10-02,Miami,USA,Miami/USA,4.0,8,Inactive,N,1610612751,Nets,BKN,nets,Brooklyn,shane_larkin,2013.0,2017.0,Y,Y,Y,1,18,N,0
+87,203495,Ricky Ledo,1992-09-10,Providence,USA,Providence/USA,2.0,11,Inactive,N,1610612742,Mavericks,DAL,mavericks,Dallas,ricky_ledo,2013.0,2014.0,Y,Y,Y,2,43,N,0
+88,1629642,Nassir Little,2000-02-11,North Carolina,USA,North Carolina/USA,4.0,10,Active,N,1610612757,Trail Blazers,POR,blazers,Portland,nassir_little,2019.0,2023.0,N,Y,Y,1,25,N,1
+89,1628399,Tyler Lydon,1996-04-09,Syracuse,USA,Syracuse/USA,3.0,20,Inactive,N,1610612743,Nuggets,DEN,nuggets,Denver,tyler_lydon,2017.0,2018.0,Y,Y,Y,1,24,N,0
+90,1629611,Terance Mann,1996-10-18,Florida State,USA,Florida State/USA,4.0,14,Active,N,1610612746,Clippers,LAC,clippers,LA,terance_mann,2019.0,2023.0,Y,Y,Y,2,48,N,1
+91,203906,Devyn Marble,1992-09-21,Iowa,USA,Iowa/USA,3.0,11,Inactive,N,1610612753,Magic,ORL,magic,Orlando,devyn_marble,2014.0,2015.0,Y,Y,Y,2,56,N,0
+92,1628997,Caleb Martin,1995-09-28,Nevada,USA,Nevada/USA,4.0,16,Active,N,1610612748,Heat,MIA,heat,Miami,caleb_martin,2019.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+93,1628998,Cody Martin,1995-09-28,Nevada,USA,Nevada/USA,4.0,11,Active,N,1610612766,Hornets,CHA,hornets,Charlotte,cody_martin,2019.0,2023.0,Y,Y,Y,2,36,N,1
+94,1628412,Frank Mason III,1994-04-03,Kansas,USA,Kansas/USA,5.0,0,Inactive,N,0,0,0,0,0,frank_mason,2017.0,2020.0,Y,Y,Y,2,34,N,0
+95,1628999,Yante Maten,1996-08-14,Georgia,USA,Georgia/USA,2.0,00,Inactive,N,1610612748,Heat,MIA,heat,Miami,yaten_maten,2018.0,2018.0,Y,Y,Y,0,0,N,0
+96,203949,James Michael McAdoo,1993-01-04,North Carolina,USA,North Carolina/USA,4.0,0,Inactive,N,0,0,0,0,0,james michael_mcadoo,2014.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+97,203492,Ray McCallum,1991-06-12,Detroit,USA,Detroit/USA,4.0,0,Inactive,N,0,0,0,0,0,ray_mccallum,2013.0,2015.0,Y,Y,Y,2,36,N,0
+98,204456,T.J. McConnell,1992-03-25,Arizona,USA,Arizona/USA,8.0,9,Active,N,1610612754,Pacers,IND,pacers,Indiana,t.j._mcconnell,2015.0,2023.0,N,Y,Y,0,0,N,1
+99,1629667,Jalen McDaniels,1998-01-31,San Diego State,USA,San Diego State/USA,4.0,7,Active,N,1610612755,76ers,PHI,sixers,Philadelphia,jalen_mcdaniels,2019.0,2023.0,Y,Y,Y,2,52,N,1
+100,203909,KJ McDaniels,1993-02-09,Clemson,USA,Clemson/USA,4.0,14,Inactive,N,1610612745,Rockets,HOU,rockets,Houston,kj_mcdaniels,2014.0,2016.0,Y,Y,Y,2,32,N,0
+101,203895,Jordan McRae,1991-03-28,Tennessee,USA,Tennessee/USA,5.0,52,Inactive,N,1610612764,Wizards,WAS,wizards,Washington,jordan_mcrae,2015.0,2019.0,Y,Y,Y,2,58,N,0
+102,1629001,De'Anthony Melton,1998-05-28,Southern California,USA,Southern California/USA,5.0,8,Active,N,1610612755,76ers,PHI,sixers,Philadelphia,deanthony_melton,2018.0,2023.0,Y,Y,Y,2,46,N,1
+103,1629002,Chimezie Metu,1997-03-22,Southern California,USA,Southern California/USA,5.0,7,Active,N,1610612758,Kings,SAC,kings,Sacramento,chimezie_metu,2018.0,2023.0,Y,Y,Y,2,49,N,1
+104,1626175,Jordan Mickey,1994-07-09,Louisiana State,USA,Louisiana State/USA,4.0,25,Inactive,N,1610612738,Celtics,BOS,celtics,Boston,jordan_mickey,2015.0,2017.0,Y,Y,Y,2,33,N,0
+105,1629003,Shake Milton,1996-09-26,Southern Methodist,USA,Southern Methodist/USA,5.0,18,Active,N,1610612755,76ers,PHI,sixers,Philadelphia,shake_milton,2018.0,2023.0,Y,Y,Y,2,54,N,1
+106,203502,Tony Mitchell,1992-04-07,North Texas,USA,North Texas/USA,3.0,0,Inactive,N,0,0,0,0,0,tony_mitchell,2013.0,2016.0,Y,Y,Y,2,37,N,0
+107,1628420,Monte Morris,1995-06-27,Iowa State,USA,Iowa State/USA,6.0,22,Active,N,1610612764,Wizards,WAS,wizards,Washington,monte_morris,2017.0,2023.0,Y,Y,Y,2,51,N,1
+108,203513,Erik Murphy,1990-10-26,Florida,Finland,Florida/Finland,1.0,33,Inactive,N,1610612741,Bulls,CHI,bulls,Chicago,erik_murphy,2013.0,2013.0,Y,Y,Y,2,49,N,0
+109,203488,Mike Muscala,1991-07-01,Bucknell,USA,Bucknell/USA,10.0,57,Active,N,1610612764,Wizards,WAS,wizards,Washington,mike_muscala,2013.0,2023.0,Y,Y,Y,2,44,N,1
+110,1629004,Svi Mykhailiuk,1997-06-10,Kansas,Ukraine,Kansas/Ukraine,5.0,17,Active,N,1610612766,Hornets,CHA,hornets,Charlotte,sviatoslav_mykhailiuk,2018.0,2023.0,Y,Y,Y,2,47,N,1
+111,1629669,Jaylen Nowell,1999-07-09,Washington,USA,Washington/USA,4.0,4,Active,N,1610612750,Timberwolves,MIN,timberwolves,Minnesota,jaylen_nowell,2019.0,2023.0,Y,Y,Y,2,43,N,1
+112,1629006,Josh Okogie,1998-09-01,Georgia Tech,Nigeria,Georgia Tech/Nigeria,5.0,2,Active,N,1610612756,Suns,PHX,suns,Phoenix,josh_okogie,2018.0,2023.0,N,Y,Y,1,20,N,1
+113,1628419,Cameron Oliver,1996-07-11,Nevada,USA,Nevada/USA,2.0,0,Inactive,N,0,0,0,0,0,cameron_oliver,2020.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+114,203482,Kelly Olynyk,1991-04-19,Gonzaga,Canada,Gonzaga/Canada,10.0,41,Active,N,1610612762,Jazz,UTA,jazz,Utah,kelly_olynyk,2013.0,2023.0,N,Y,Y,1,13,N,1
+115,1629671,Miye Oni,1997-08-04,Yale,USA,Yale/USA,3.0,0,Inactive,N,0,0,0,0,0,miye_oni,2019.0,2021.0,Y,Y,Y,2,58,N,0
+116,203934,Lamar Patterson,1991-08-12,Pittsburgh,USA,Pittsburgh/USA,2.0,0,Inactive,N,0,0,0,0,0,lamar_patterson,2015.0,2016.0,Y,Y,Y,2,48,N,0
+117,203464,Brandon Paul,1991-04-30,Illinois,USA,Illinois/USA,1.0,3,Inactive,N,1610612759,Spurs,SAS,spurs,San Antonio,brandon_paul,2017.0,2017.0,Y,Y,Y,Undrafted,Undrafted,N,0
+118,1626166,Cameron Payne,1994-08-08,Murray State,USA,Murray State/USA,8.0,15,Active,N,1610612756,Suns,PHX,suns,Phoenix,cameron_payne,2015.0,2023.0,Y,Y,Y,1,14,N,1
+119,203658,Norvel Pelle,1993-02-03,Iona,Antigua and Barbuda,Iona/Antigua and Barbuda,4.0,0,Inactive,N,0,0,0,0,0,norvel_pelle,2019.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+120,1629617,Reggie Perry,2000-03-21,Changwon LG Sakers (Korea),USA,Mississippi State/USA,3.0,0,Inactive,N,0,0,0,0,0,reggie_perry,2020.0,2021.0,Y,Y,Y,2,57,N,0
+121,1629033,Theo Pinson,1995-11-05,North Carolina,USA,North Carolina/USA,5.0,1,Active,N,1610612742,Mavericks,DAL,mavericks,Dallas,theo_pinson,2018.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+122,1629044,Shamorie Ponds,1998-06-29,"St. John's, N.Y.",USA,St. John's (NY)/USA,1.0,0,Inactive,N,0,0,0,0,0,shamorie_ponds,2019.0,2019.0,Y,Y,Y,Undrafted,Undrafted,N,0
+123,1629673,Jordan Poole,1999-06-19,Michigan,USA,Michigan/USA,4.0,3,Active,N,1610612744,Warriors,GSW,warriors,Golden State,jordan_poole,2019.0,2023.0,Y,Y,Y,1,28,N,1
+124,1629007,Jontay Porter,1999-11-15,Missouri,USA,Missouri/USA,2.0,4,Inactive,N,1610612763,Grizzlies,MEM,grizzlies,Memphis,jontay_porter,2019.0,2020.0,Y,Y,Y,Undrafted,Undrafted,N,0
+125,1626181,Norman Powell,1993-05-25,UCLA,USA,UCLA/USA,8.0,24,Active,N,1610612746,Clippers,LAC,clippers,LA,norman_powell,2015.0,2023.0,Y,Y,Y,2,46,N,1
+126,203515,Phil Pressey,1991-02-17,Missouri,USA,Missouri/USA,4.0,0,Inactive,N,0,0,0,0,0,phil_pressey,2013.0,2015.0,Y,Y,Y,Undrafted,Undrafted,N,0
+127,1629674,Neemias Queta,1999-07-13,Utah State,Portugal,Utah State/Portugal,2.0,88,Active,N,1610612758,Kings,SAC,kings,Sacramento,neemias_queta,2021.0,2023.0,Y,Y,Y,2,39,N,1
+128,1629675,Naz Reid,1999-08-26,Louisiana State,USA,Louisiana State/USA,4.0,11,Active,N,1610612750,Timberwolves,MIN,timberwolves,Minnesota,naz_reid,2019.0,2023.0,Y,Y,Y,Undrafted,Undrafted,N,1
+129,203318,Glen Rice,1991-01-01,Georgia Tech,USA,Michigan/USA,2.0,0,Inactive,N,0,0,0,0,0,glen_rice,2013.0,2014.0,Y,Y,Y,2,35,N,0
+130,203460,Andre Roberson,1991-12-04,Colorado,USA,Colorado/USA,7.0,0,Inactive,N,0,0,0,0,0,andre_roberson,2013.0,2020.0,Y,Y,Y,1,26,N,0
+131,1628421,Devin Robinson,1995-03-07,Florida,USA,Florida/USA,3.0,7,Inactive,N,1610612764,Wizards,WAS,wizards,Washington,devin_robinson,2017.0,2018.0,Y,Y,Y,0,0,N,0
+132,203922,Glenn Robinson III,1994-01-08,Michigan,USA,Michigan/USA,7.0,0,Inactive,N,0,0,0,0,0,glenn_robinson iii,2014.0,2020.0,Y,Y,Y,2,40,N,0
+133,1629676,Isaiah Roby,1998-02-03,Nebraska,USA,Nebraska/USA,4.0,18,Active,N,1610612752,Knicks,NYK,knicks,New York,roby_isaiah,2019.0,2023.0,Y,Y,Y,2,45,N,1
+134,1626179,Terry Rozier,1994-03-17,Louisville,USA,Louisville/USA,8.0,3,Active,N,1610612766,Hornets,CHA,hornets,Charlotte,terry_rozier,2015.0,2023.0,Y,Y,Y,1,16,N,1
+135,1629677,Luka Samanic,2000-01-09,Union Olimpija,Croatia,Union Olimpija/Croatia,3.0,19,Active,N,1610612762,Jazz,UTA,jazz,Utah,luka_samanic,2019.0,2023.0,Y,Y,Y,1,19,N,0
+136,1629013,Landry Shamet,1997-03-13,Wichita State,USA,Wichita State/USA,5.0,14,Active,N,1610612764,Wizards,WAS,wizards,Washington,landry_shamet,2018.0,2023.0,N,Y,Y,1,26,N,1
+137,203491,Peyton Siva,1990-10-24,Louisville,USA,Louisville/USA,1.0,34,Inactive,N,1610612765,Pistons,DET,pistons,Detroit,peyton_siva,2013.0,2013.0,Y,Y,Y,2,56,N,0
+138,203893,Russ Smith,1991-04-19,Louisville,USA,Louisville/USA,2.0,0,Inactive,N,0,0,0,0,0,russ_smith,2014.0,2015.0,Y,Y,Y,2,47,N,0
+139,203503,Tony Snell,1991-11-10,New Mexico,USA,New Mexico/USA,10.0,21,Inactive,N,1610612740,Pelicans,NOP,pelicans,New Orleans,tony_snell,2013.0,2021.0,Y,Y,Y,1,20,N,0
+140,203480,James Southerland,1990-04-28,Syracuse,USA,Syracuse/USA,1.0,31,Inactive,N,1610612740,Pelicans,NOP,pelicans,New Orleans,james_southerland,2013.0,2013.0,Y,Y,Y,Undrafted,Undrafted,N,0
+141,1629034,Ray Spalding,1997-03-11,Louisville,USA,Louisville/USA,2.0,0,Inactive,N,0,0,0,0,0,ray_spalding,2018.0,2020.0,Y,Y,Y,2,56,N,0
+142,1629016,Omari Spellman,1997-07-21,Villanova,USA,Villanova/USA,3.0,14,Inactive,N,1610612744,Warriors,GSW,warriors,Golden State,omari_spellman,2018.0,2019.0,Y,Y,Y,1,30,N,0
+143,203950,Jarnell Stokes,1994-01-07,Tennessee,USA,Tennessee/USA,4.0,0,Inactive,N,0,0,0,0,0,jarnell_stokes,2014.0,2016.0,Y,Y,Y,2,35,N,0
+144,1626208,Keifer Sykes,1993-12-30,Green Bay,USA,Wisconsin-Green Bay/USA,2.0,0,Inactive,N,0,0,0,0,0,keifer_sykes,2021.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+145,1628414,Sindarius Thornwell,1994-11-15,South Carolina,USA,South Carolina/USA,5.0,15,Inactive,N,1610612746,Clippers,LAC,clippers,LA,sindarius_thornwell,2017.0,2020.0,Y,Y,Y,2,48,N,0
+146,1629019,Allonzo Trier,1996-01-17,Arizona,USA,Arizona/USA,2.0,0,Inactive,N,0,0,0,0,0,allonzo_trier,2018.0,2019.0,Y,Y,Y,0,0,N,0
+147,1626173,Rashad Vaughn,1996-08-16,UNLV,USA,UNLV/USA,3.0,0,Inactive,N,0,0,0,0,0,rashad_vaughn,2015.0,2017.0,Y,Y,Y,1,17,N,0
+148,1628476,Derrick Walton Jr.,1995-04-03,Michigan,USA,Michigan/USA,3.0,0,Inactive,N,0,0,0,0,0,derrick_walton_jr,2017.0,2021.0,Y,Y,Y,Undrafted,Undrafted,N,0
+149,1629682,Tremont Waters,1998-01-10,Louisiana State,USA,Louisiana State/USA,3.0,0,Inactive,N,0,0,0,0,0,tremont_waters,2019.0,2021.0,Y,Y,Y,2,51,N,0
+150,1628401,Derrick White,1994-07-02,Colorado,USA,Colorado/USA,6.0,9,Active,N,1610612738,Celtics,BOS,celtics,Boston,derrick_white,2017.0,2023.0,Y,Y,Y,1,29,N,1
+151,203912,C.J. Wilcox,1990-12-30,Washington,USA,Washington/USA,4.0,23,Inactive,N,1610612746,Clippers,LAC,clippers,LA,cj_wilcox,2014.0,2017.0,Y,Y,Y,1,28,N,0
+152,1626210,Alan Williams,1993-01-28,Cal-Santa Barbara,USA,California-Santa Barbara/USA,5.0,15,Inactive,N,1610612756,Suns,PHX,suns,Phoenix,alan_williams,2015.0,2018.0,Y,Y,Y,Undrafted,Undrafted,N,0
+153,1629684,Grant Williams,1998-11-30,Tennessee,USA,Tennessee/USA,4.0,12,Active,N,1610612738,Celtics,BOS,celtics,Boston,grant_williams,2019.0,2023.0,N,Y,Y,1,22,N,1
+154,203481,Jeff Withey,1990-03-07,Kansas,USA,Kansas/USA,5.0,0,Inactive,N,0,0,0,0,0,jeff_withey,2013.0,2017.0,N,Y,Y,2,39,N,0
+155,203489,Nate Wolters,1991-05-15,South Dakota State,USA,South Dakota State/USA,3.0,0,Inactive,N,0,0,0,0,0,nate_wolters,2013.0,2017.0,Y,Y,Y,2,38,N,0

@@ -1,0 +1,783 @@
+Columna:        Tablas donde aparece
+person_id:      common_player_info, draft_history
+        Descripcion: Identificador numerico de persona
+
+first_name:      common_player_info, draft_combine_stats, inactive_players, officials, player
+        Descripcion: Nombre de Pila de jugadores y oficiales
+
+last_name:      common_player_info, draft_combine_stats, inactive_players, officials, player
+        Descripcion: Apellido de Jugadores y oficiales
+
+display_first_last:      common_player_info
+        Descripcion: Nombre y Apellido
+
+display_last_comma_first:      common_player_info
+        Descripcion: Apellido, Nombre
+
+display_fi_last:      common_player_info
+        Descripcion: Nomb. Apellido
+
+player_slug:      common_player_info
+        Descripcion: Nombre separado por _
+
+birthdate:      common_player_info
+        Descripcion: Fecha de cumpleaños de jugador
+
+school:      common_player_info
+        Descripcion: Escuela a la que atendio el jugador
+
+country:      common_player_info
+        Descripcion: Pais de origen del jugador
+
+last_affiliation:      common_player_info
+        Descripcion: Locacion de la ultima afiliacion del jugador
+
+height:      common_player_info
+        Descripcion: Altura del jugador en formato "pies-pulgadas"
+
+weight:      common_player_info, draft_combine_stats
+        Descripcion: Peso del jugador expresado en libras
+
+season_exp:      common_player_info
+        Descripcion: ??
+
+jersey:      common_player_info
+        Descripcion: Numero de camiseta del jugador
+
+position:      common_player_info, draft_combine_stats
+        Descripcion: Posicion en la que juega
+
+rosterstatus:      common_player_info
+        Descripcion: Estado actual en plantilla de equipo
+
+games_played_current_season_flag:      common_player_info
+        Descripcion: Verificador si jugo partidos en la temporada (N/Y)
+
+team_id:      common_player_info, draft_history, inactive_players, team_details, team_history, team_info_common
+        Descripcion: ID del equipo en numeros
+
+team_name:      common_player_info, draft_history, inactive_players, team_info_common
+        Descripcion: Nombre del equipo
+
+team_abbreviation:      common_player_info, draft_history, inactive_players, team_info_common
+        Descripcion: Abreviacion del nombre del equipo
+
+team_code:      common_player_info, team_info_common
+        Descripcion: Codigo del equipo en palabras 
+
+team_city:      common_player_info, draft_history, inactive_players, team_info_common
+        Descripcion: Ciudad de origen del equipo 
+
+playercode:      common_player_info
+        Descripcion: Codigo del jugador con formato "xxxx.player_slug"
+
+from_year:      common_player_info
+        Descripcion: Año cuando inicia su actividad en NBA
+
+to_year:      common_player_info
+        Descripcion: Año cuando finaliza su actividad en NBA
+
+dleague_flag:      common_player_info
+        Descripcion: Verificador si jugo en la D-League (liga menor de la NBA) (Y/N)
+
+nba_flag:      common_player_info
+        Descripcion: Verificador si jugo en la NBA (Y/N)
+
+games_played_flag:      common_player_info
+        Descripcion: Verificador si jugo partidos (Y/N)
+
+draft_year:      common_player_info
+        Descripcion: Año de reclutamiento para empezar a jugar en la liga
+
+draft_round:      common_player_info
+        Descripcion: Ronda en la cual el jugador fue seleccionado
+
+draft_number:      common_player_info
+        Descripcion: ??
+
+greatest_75_flag:      common_player_info
+        Descripcion: Verificador si esta en los mejores 75 
+
+season:      draft_combine_stats, draft_history, game_summary
+        Descripcion: Año de la temporada
+
+player_id:      draft_combine_stats, inactive_players
+        Descripcion: ID del jugador en formato numero
+
+player_name:      draft_combine_stats, draft_history
+        Descripcion: Nombre completo del jugador
+
+height_wo_shoes:      draft_combine_stats
+        Descripcion: Altura del jugador sin zapatos en pulgadas
+
+height_wo_shoes_ft_in:      draft_combine_stats
+        Descripcion: Altura del jugador sin zapatos en pies y pulgadas
+
+height_w_shoes:      draft_combine_stats
+        Descripcion: Altura del jugador con zapatos en pulgadas
+
+height_w_shoes_ft_in:      draft_combine_stats
+        Descripcion: Altura del jugador con zapatos en pies y pulgadas
+
+wingspan:      draft_combine_stats
+        Descripcion: Envergadura del jugador en pulgadas
+
+wingspan_ft_in:      draft_combine_stats
+        Descripcion: Envergadura del jugador en pies y pulgadas
+
+standing_reach:      draft_combine_stats
+        Descripcion: Altura del jugador con los brazos extendidos hacia arriba en pulgadas
+
+standing_reach_ft_in:      draft_combine_stats
+        Descripcion: Altura del jugador con los brazos extendidos hacia arriba en pies y pulgadas
+
+body_fat_pct:      draft_combine_stats
+        Descripcion: Porcentaje de grasa en cuerpo
+
+hand_length:      draft_combine_stats
+        Descripcion: longitud de la mano en pulgadas
+
+hand_width:      draft_combine_stats
+        Descripcion: Ancho de la mano en pulgadas
+
+standing_vertical_leap:      draft_combine_stats
+        Descripcion: Altura del jugador saltanto verticalmente en el lugar
+
+max_vertical_leap:      draft_combine_stats
+        Descripcion: Maxima distancia del jugador saltando verticalmente
+
+lane_agility_time:      draft_combine_stats
+        Descripcion: tiempo en el que el jugador realizo la prueba de agilidad lateral en carril
+
+modified_lane_agility_time:      draft_combine_stats
+        Descripcion: tiempo en el que el jugador realizo la prueba modificada de agilidad lateral en carril
+
+three_quarter_sprint:      draft_combine_stats
+        Descripcion: tiempo en el que realiza el sprint de 3/4
+
+bench_press:      draft_combine_stats
+        Descripcion: repeticiones maximas que pudo lograr el jugador en la prueba de Bench Press
+
+spot_fifteen_corner_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde la esquina izquierda en fifteen
+
+spot_fifteen_break_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo un quiebre a la izquierda en fifteen
+
+spot_fifteen_top_key:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde el top en fifteen
+
+spot_fifteen_break_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo un quiebre a la derecha en fifteen
+
+spot_fifteen_corner_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde la esquina derecha en fifteen
+
+spot_college_corner_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde la esquina izquierda en college basket
+
+spot_college_break_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo un break a la izquierda en college basket
+
+spot_college_top_key:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde el top en college basket
+
+spot_college_break_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo un break a la derecha en college basket
+
+spot_college_corner_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde la esquina derecha en college basket
+
+spot_nba_corner_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde la esquina izquierda en NBA
+
+spot_nba_break_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo un quiebre a la izquierda en NBA
+
+spot_nba_top_key:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde el top en NBA
+
+spot_nba_break_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo un quiebre a la derecha en NBA
+
+spot_nba_corner_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos desde la esquina derecha en NBA
+
+off_drib_fifteen_break_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo dribble hacia la izquierda en fifteen
+
+off_drib_fifteen_top_key:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo dribble en el top en fifteen
+
+off_drib_fifteen_break_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo dribble hacia la derecha en fifteen
+
+off_drib_college_break_left:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo dribble hacia la izquierda en college basket
+
+off_drib_college_top_key:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo dribble en el top en college basket 
+
+off_drib_college_break_right:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos haciendo dribble hacia la derecha en college basket
+
+on_move_fifteen:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos en movimiento en fifteen
+
+on_move_college:      draft_combine_stats
+        Descripcion: Rendimiento de los lanzamientos en movimiento en college basket 
+
+round_number:      draft_history
+        Descripcion: numero de ronda de drafteo
+
+round_pick:      draft_history
+        Descripcion: ronda en la que se selecciona al jugador
+
+overall_pick:      draft_history
+        Descripcion: posicion del jugador en la seleccion del drafteo
+
+draft_type:      draft_history
+        Descripcion: Tipo de reclutamiento
+
+organization:      draft_history
+        Descripcion: organizacion donde ocurre el drafteo
+
+organization_type:      draft_history
+        Descripcion: tipo de organizacion donde ocurre el drafteo
+
+player_profile_flag:      draft_history
+        Descripcion: verificador de perfil del jugador
+
+game_id:      game_info, game_summary, game, inactive_players, line_score, officials, other_stats, play_by_play
+        Descripcion: ID del partido
+
+game_date:      game_info, game
+        Descripcion: fecha del partido
+
+attendance:      game_info
+        Descripcion: concurrencia del partido
+
+game_time:      game_info
+        Descripcion: hora del partido
+
+game_date_est:      game_summary, line_score
+        Descripcion: fecha del partido eastern time
+
+game_sequence:      game_summary, line_score
+        Descripcion: ??
+
+game_status_id:      game_summary
+        Descripcion: Codigo del estado actual del partido
+
+game_status_text:      game_summary
+        Descripcion: Estado actual del partido
+
+gamecode:      game_summary
+        Descripcion: Codigo unico del partido compuesto por la fecha y las abreviaciones de los equipos
+
+home_team_id:      game_summary
+        Descripcion: ID del equipo local
+
+visitor_team_id:      game_summary
+        Descripcion: ID del equipo visitante
+
+live_period:      game_summary
+        Descripcion: Periodo de la transmision en vivo
+
+live_pc_time:      game_summary
+        Descripcion: Hora de la transmision en vivo
+
+natl_tv_broadcaster_abbreviation:      game_summary
+        Descripcion: Abreviacion del emisor que transmite el partido
+
+live_period_time_bcast:      game_summary
+        Descripcion: Periodo de tiempo de la transmision en vivo
+
+wh_status:      game_summary
+        Descripcion: ??
+
+season_id:      game, team_info_common
+        Descripcion: ID de la temporada, es un numero representando el evento seguido por el año de temporada
+
+team_id_home:      game, line_score, other_stats
+        Descripcion: ID del equipo local
+
+team_abbreviation_home:      game, line_score, other_stats
+        Descripcion: Abreviacion del equipo local
+
+team_name_home:      game
+        Descripcion: Nombre del equipo local
+
+matchup_home:      game
+        Descripcion: Contrincantes
+
+wl_home:      game
+        Descripcion: Verificador para la victoria(W) o derrota(L) del equipo local
+
+min:      game
+        Descripcion: ??
+
+fgm_home:      game
+        Descripcion: anotaciones de campo realizadas con exito del equipo local
+
+fga_home:      game
+        Descripcion: intentos de anotaciones de campo del equipo local
+
+fg_pct_home:      game
+        Descripcion: efectividad de las anotaciones vs los intentos del equipo local
+
+fg3m_home:      game
+        Descripcion: triples anotados con exito del equipo local
+
+fg3a_home:      game
+        Descripcion: intentos de anotacion de triples del equipo local
+
+fg3_pct_home:      game
+        Descripcion: efectividad de anotaciones de triples vs los intentos del equipo local
+
+ftm_home:      game
+        Descripcion: anotaciones en tiros libres del equipo local
+
+fta_home:      game
+        Descripcion: intentos de anotacion en tiros libres del equipo local
+
+ft_pct_home:      game
+        Descripcion: efectividad de anotaciones en tiros libres vs los intentos del equipo local
+
+oreb_home:      game
+        Descripcion: cantidad de contraofensivas del equipo local
+
+dreb_home:      game
+        Descripcion: cantidad de ataques frustrados del equipo local
+
+reb_home:      game
+        Descripcion: cantidad total de recuperaciones (contraofensivas + ataques frustrados) del equipo local
+
+ast_home:      game
+        Descripcion: cantidad de asistencias del equipo local
+
+stl_home:      game
+        Descripcion: cantidad de intercepciones del equipo local
+
+blk_home:      game
+        Descripcion: cantidad de bloqueos del equipo local
+
+tov_home:      game
+        Descripcion: cantidad de perdidas de la pelota del equipo local
+
+pf_home:      game
+        Descripcion: faltas cometidas por el equipo local
+
+pts_home:      game, line_score
+        Descripcion: cantidad de puntos del equipo local
+
+plus_minus_home:      game
+        Descripcion: diferencia de puntos con el equipo visitante
+
+video_available_home:      game
+        Descripcion: disponibilidad del video del partido para el equipo local
+
+team_id_away:      game, line_score, other_stats
+        Descripcion: ID del equipo visitante
+
+team_abbreviation_away:      game, line_score, other_stats
+        Descripcion: abreviacion del equipo visitante
+
+team_name_away:      game
+        Descripcion: nombre del equipo visitante
+
+matchup_away:      game
+        Descripcion: contrincantes especificados por donde sea juega con un @ (away @ home)
+
+wl_away:      game
+        Descripcion: Verificador para la victoria(W) o derrota(L) del equipo visitante
+
+fgm_away:      game
+        Descripcion: anotaciones de campo realizadas con exito del equipo visitante
+
+fga_away:      game
+        Descripcion: intentos de anotaciones de campo del equipo visitante
+
+fg_pct_away:      game
+        Descripcion: efectividad de las anotaciones vs los intentos del equipo visitante
+
+fg3m_away:      game
+        Descripcion: triples anotados con exito del equipo visitante
+
+fg3a_away:      game
+        Descripcion: intentos de anotacion de triples del equipo visitante
+
+fg3_pct_away:      game
+        Descripcion: efectividad de anotaciones de triples vs los intentos del equipo visitante
+
+ftm_away:      game
+        Descripcion: anotaciones en tiros libres del equipo visitante
+
+fta_away:      game
+        Descripcion: intentos de anotacion en tiros libres del equipo visitante
+
+ft_pct_away:      game
+        Descripcion: efectividad de anotaciones en tiros libres vs los intentos del equipo visitante
+
+oreb_away:      game
+        Descripcion: cantidad de contraofensivas del equipo visitante
+
+dreb_away:      game
+        Descripcion: cantidad de ataques frustrados del equipo visitante
+
+reb_away:      game
+        Descripcion: cantidad total de recuperaciones (contraofensivas + ataques frustrados) del equipo visitante
+
+ast_away:      game
+        Descripcion: cantidad de asistencias del equipo visitante
+
+stl_away:      game
+        Descripcion: cantidad de intercepciones del equipo visitante
+
+blk_away:      game
+        Descripcion: cantidad de bloqueos del equipo visitante
+
+tov_away:      game
+        Descripcion: cantidad de perdidas de la pelota del equipo visitante
+
+pf_away:      game
+        Descripcion: faltas cometidas por el equipo visitante
+
+pts_away:      game, line_score
+        Descripcion: cantidad de puntos del equipo visitante
+
+plus_minus_away:      game
+        Descripcion: diferencia de puntos con el equipo local
+
+video_available_away:      game
+        Descripcion: disponibilidad del video del partido para el equipo visitante
+
+season_type:      game
+        Descripcion: tipo de temporada
+
+jersey_num:      inactive_players, officials
+        Descripcion: Numero de la camiseta
+
+team_city_name_home:      line_score
+        Descripcion: Nombre de la ciudad del equipo local
+
+team_nickname_home:      line_score
+        Descripcion: apodo del equipo local
+
+team_wins_losses_home:      line_score
+        Descripcion: partidos ganados sobre partidos perdidos del equipo local
+
+pts_qtr1_home:      line_score
+        Descripcion: puntos anotados en el primer tiempo del equipo local
+
+pts_qtr2_home:      line_score
+        Descripcion: puntos anotados en el segundo tiempo del equipo local
+
+pts_qtr3_home:      line_score
+        Descripcion: puntos anotados en el tercer tiempo del equipo local
+
+pts_qtr4_home:      line_score
+        Descripcion: puntos anotados en el cuarto tiempo del equipo local
+
+pts_ot1_home:      line_score
+        Descripcion: puntos anotados en el primer overtime del equipo local
+
+pts_ot2_home:      line_score
+        Descripcion: puntos anotados en el segundo overtime del equipo local
+
+pts_ot3_home:      line_score
+        Descripcion: puntos anotados en el tercer overtime del equipo local
+
+pts_ot4_home:      line_score
+        Descripcion: puntos anotados en el cuarto overtime del equipo local
+
+pts_ot5_home:      line_score
+        Descripcion: puntos anotados en el quinto overtime del equipo local
+
+pts_ot6_home:      line_score
+        Descripcion: puntos anotados en el sexto overtime del equipo local
+
+pts_ot7_home:      line_score
+        Descripcion: puntos anotados en el septimo overtime del equipo local
+
+pts_ot8_home:      line_score
+        Descripcion: puntos anotados en el octavo overtime del equipo local
+
+pts_ot9_home:      line_score
+        Descripcion: puntos anotados en el noveno overtime del equipo local
+
+pts_ot10_home:      line_score
+        Descripcion: puntos anotados en el decimo overtime del equipo local
+
+team_city_name_away:      line_score
+        Descripcion: Nombre de la ciudad del equipo visitante
+
+team_nickname_away:      line_score
+        Descripcion: apodo del equipo visitante
+
+team_wins_losses_away:      line_score
+        Descripcion: partidos ganados sobre partidos perdidos del equipo visitante
+
+pts_qtr1_away:      line_score
+        Descripcion: puntos anotados en el primer tiempo del equipo visitante
+
+pts_qtr2_away:      line_score
+        Descripcion: puntos anotados en el segundo tiempo del equipo visitante
+
+pts_qtr3_away:      line_score
+        Descripcion: puntos anotados en el tercer tiempo del equipo visitante
+
+pts_qtr4_away:      line_score
+        Descripcion: puntos anotados en el cuarto tiempo del equipo visitante
+
+pts_ot1_away:      line_score
+        Descripcion: puntos anotados en el primer overtime del equipo visitante
+
+pts_ot2_away:      line_score
+        Descripcion: puntos anotados en el segundo overtime del equipo visitante
+
+pts_ot3_away:      line_score
+        Descripcion: puntos anotados en el tercer overtime del equipo visitante
+
+pts_ot4_away:      line_score
+        Descripcion: puntos anotados en el cuarto overtime del equipo visitante
+
+pts_ot5_away:      line_score
+        Descripcion: puntos anotados en el quinto overtime del equipo visitante
+
+pts_ot6_away:      line_score
+        Descripcion: puntos anotados en el sexto overtime del equipo visitante
+
+pts_ot7_away:      line_score
+        Descripcion: puntos anotados en el septimo overtime del equipo visitante
+
+pts_ot8_away:      line_score
+        Descripcion: puntos anotados en el octavo overtime del equipo visitante
+
+pts_ot9_away:      line_score
+        Descripcion: puntos anotados en el noveno overtime del equipo visitante
+
+pts_ot10_away:      line_score
+        Descripcion: puntos anotados en el decimo overtime del equipo visitante
+
+official_id:      officials
+        Descripcion: ID del official 
+
+league_id:      other_stats, team_info_common
+        Descripcion: ID de la liga
+
+team_city_home:      other_stats
+        Descripcion: Nombre de la ciudad del equipo local
+
+pts_paint_home:      other_stats
+        Descripcion: cantidad de puntos obtenidos anotando en la zona del aro del equipo local
+
+pts_2nd_chance_home:      other_stats
+        Descripcion: cantidad de puntos obtenidos anotando despues de un rebote de un intento fallido del equipo local
+
+pts_fb_home:      other_stats
+        Descripcion: cantidad de puntos obtenidos anotando en un contrataque del equipo local
+
+largest_lead_home:      other_stats
+        Descripcion: mayor diferencia de puntos lograda en el partido a favor del equipo local
+
+lead_changes:      other_stats
+        Descripcion: cantidad de veces que se dio vuelta el partido
+
+times_tied:      other_stats
+        Descripcion: cantidad de veces en las que el partido paso a empate
+
+team_turnovers_home:      other_stats
+        Descripcion: cantidad de veces que el equipo local pierde la pelota por errores no forzados
+
+total_turnovers_home:      other_stats
+        Descripcion: cantidad de veces que el equipo local pierde la pelota por acciones del contrincante
+
+team_rebounds_home:      other_stats
+        Descripcion: cantidad de recuperaciones del equipo local
+
+pts_off_to_home:      other_stats
+        Descripcion: cantidad de puntos anotados por el equipo local en transision ofensiva luego que el rival pierda posesion
+
+team_city_away:      other_stats
+        Descripcion: Nombre de la ciudad del equipo visitante
+
+pts_paint_away:      other_stats
+        Descripcion: cantidad de puntos obtenidos anotando en la zona del aro del equipo visitante
+
+pts_2nd_chance_away:      other_stats
+        Descripcion: cantidad de puntos obtenidos anotando despues de un rebote de un intento fallido del equipo visitante
+
+pts_fb_away:      other_stats
+        Descripcion: cantidad de puntos obtenidos anotando en un contrataque del equipo visitante
+
+largest_lead_away:      other_stats
+        Descripcion: mayor diferencia de puntos lograda en el partido a favor del equipo visitante
+
+team_turnovers_away:      other_stats
+        Descripcion: cantidad de veces que el equipo visitante pierde la pelota por errores no forzados
+
+total_turnovers_away:      other_stats
+        Descripcion: cantidad de veces que el equipo visitante pierde la pelota por acciones del contrincante
+
+team_rebounds_away:      other_stats
+        Descripcion: cantidad de recuperaciones del equipo visitante
+
+pts_off_to_away:      other_stats
+        Descripcion: cantidad de puntos anotados por el equipo visitante en transision ofensiva luego que el rival pierda posesion
+
+eventnum:      play_by_play
+        Descripcion: numero de evento (posible ID)
+
+eventmsgtype:      play_by_play
+        Descripcion: tipo de evento
+
+eventmsgactiontype:      play_by_play
+        Descripcion: tipo de accion del evento
+
+period:      play_by_play
+        Descripcion: tiempo en el que ocurre una jugada
+
+wctimestring:      play_by_play
+        Descripcion: hora en la que ocurre una jugada en formato string con AM o PM
+
+pctimestring:      play_by_play
+        Descripcion: hora en la que ocurre una jugada en formato string 
+
+homedescription:      play_by_play
+        Descripcion: Descripcion de la jugada basado en los jugadores del equipo local
+
+neutraldescription:      play_by_play
+        Descripcion: descripcion del momento de la jugada
+
+visitordescription:      play_by_play
+        Descripcion: Descripcion de la jugada basado en los jugadores del equipo visitante
+
+score:      play_by_play
+        Descripcion: puntaje al momento de la jugada
+
+scoremargin:      play_by_play
+        Descripcion: diferencia de puntos al momento de la jugada
+
+person1type:      play_by_play
+        Descripcion: tipo de persona 1 en la jugada
+
+player1_id:      play_by_play
+        Descripcion: ID de actor 1 en la jugada
+
+player1_name:      play_by_play
+        Descripcion: Nombre del actor 1 en la jugada
+
+player1_team_id:      play_by_play
+        Descripcion: Equipo del actor 1 en la jugada
+
+player1_team_city:      play_by_play
+        Descripcion: Ciudad del equipo del actor 1 en la jugada
+
+player1_team_nickname:      play_by_play
+        Descripcion: apodo del equipo del actor 1 en la jugada
+
+player1_team_abbreviation:      play_by_play
+        Descripcion: abreviacion del equipo del actor 1 en la jugada
+
+person2type:      play_by_play
+        Descripcion: tipo de persona 2 en la jugada
+
+player2_id:      play_by_play
+        Descripcion: ID del actor 2 en la jugada
+
+player2_name:      play_by_play
+        Descripcion: nombre del actor 2 en la jugada
+
+player2_team_id:      play_by_play
+        Descripcion: ID del equipo del actor 2 en la jugada
+
+player2_team_city:      play_by_play
+        Descripcion: Ciudad del equipo del actor 2 en la jugada
+
+player2_team_nickname:      play_by_play
+        Descripcion: apodo del equipo del actor 2 en la jugada
+
+player2_team_abbreviation:      play_by_play
+        Descripcion: abreviacion del equipo del actor 2 en la jugada
+
+person3type:      play_by_play
+        Descripcion: tipo de persona 3 en la jugada
+
+player3_id:      play_by_play
+        Descripcion: ID del actor 3 en la jugada
+
+player3_name:      play_by_play
+        Descripcion: nombre del actor 3 en la jugada
+
+player3_team_id:      play_by_play
+        Descripcion: ID del equipo del actor 3 en la jugada
+
+player3_team_city:      play_by_play
+        Descripcion: ciudad del equipo del actor 3 en la jugada
+
+player3_team_nickname:      play_by_play
+        Descripcion: apodo del equipo del actor 3 en la jugada
+
+player3_team_abbreviation:      play_by_play
+        Descripcion: abreviacion del equipo del actor 3 en la jugada
+
+video_available_flag:      play_by_play
+        Descripcion: disponibilidad del video de la jugada
+
+id:      player, team
+        Descripcion: ID del jugador o del equipo (es un atributo ambiguo)
+
+full_name:      player, team
+        Descripcion: nombre completo del jugador o del equipo (es un atributo ambiguo)
+
+is_active:      player
+        Descripcion: verificador del estado de actividad (1) o inactividad (0) del jugador
+
+abbreviation:      team_details, team
+        Descripcion: abreviacion del nombre del equipo
+
+nickname:      team_details, team_history, team
+        Descripcion: apodo del equipo
+
+yearfounded:      team_details
+        Descripcion: año de fundacion del equipo
+
+city:      team_details, team_history, team
+        Descripcion: nombre de la ciudad del equipo
+
+arena:      team_details
+        Descripcion: estadio del equipo
+
+arenacapacity:      team_details
+        Descripcion: capacidad del estadio del equipo
+
+owner:      team_details
+        Descripcion: dueño del equipo
+
+generalmanager:      team_details
+        Descripcion: general manager del equipo
+
+headcoach:      team_details
+        Descripcion: director tecnico del equipo
+
+dleagueaffiliation:      team_details
+        Descripcion: nombre con el que esta afiliado a la liga D el equipo
+
+facebook:      team_details
+        Descripcion: link a la pagina de facebook del equipo
+
+instagram:      team_details
+        Descripcion: link a la pagina de instagram del equipo
+
+twitter:      team_details
+        Descripcion: link a la pagina de twitter del equipo
+
+year_founded:      team_history, team
+        Descripcion: fundacion del equipo
+
+year_active_till:      team_history
+        Descripcion: año hasta el cual el equipo se mantuvo activo
+
+state:      team
+        Descripcion: Estado al cual pertenece el equipo

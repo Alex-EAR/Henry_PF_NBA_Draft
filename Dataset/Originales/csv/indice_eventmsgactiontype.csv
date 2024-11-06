@@ -1,0 +1,94 @@
+eventmsgactiontype,texto,descripcion
+0,Rebound Sub,Puede significar un rebote seguido de una sustitución o cambio en la posición "Forward" (alero).
+1,Shot Jump 3PT,Un lanzamiento de tres puntos en salto.
+10,Free Throw,Un tiro libre posiblemente el primero de varios.
+100,Running Layup Alley-Oop,Una bandeja en movimiento asistida en forma de alley-oop - es decir - un pase aéreo.
+101,Floating Driving Jump Shot MISS,Un tiro en salto mientras se conduce hacia la canasta - fallido.
+102,Bank Shot Floating Driving Jump MISS,Un tiro en salto con conducción y utilizando el tablero - fallido.
+103,Running 3PT Jump Shot Pull-Up MISS,Un tiro de tres puntos en carrera y en salto - fallido.
+104,Step Back Jump Shot MISS,Un tiro en paso atrás en salto - fallido.
+105,Fadeaway Jump Shot Turnaround MISS,Un tiro en salto de espaldas o giro - con caída hacia atrás - fallido.
+106,Running Alley-Oop Dunk,Una clavada asistida con un pase alley-oop en movimiento.
+107,Dunk Tip Shot,Una clavada tras un rebote (tip).
+108,Cutting Dunk,Una clavada con asistencia mientras se corta hacia la canasta.
+109,Reverse Driving Dunk,Una clavada inversa durante una conducción.
+11,Free Throw,Diferentes tipos de tiros libres - en distintos contextos (por ejemplo - 2 de 2 - 3 de 3 - técnico - etc.).
+12,Free Throw,Diferentes tipos de tiros libres - en distintos contextos (por ejemplo - 2 de 2 - 3 de 3 - técnico - etc.).
+13,Free Throw,Diferentes tipos de tiros libres - en distintos contextos (por ejemplo - 2 de 2 - 3 de 3 - técnico - etc.).
+14,Free Throw,Diferentes tipos de tiros libres - en distintos contextos (por ejemplo - 2 de 2 - 3 de 3 - técnico - etc.).
+15,Free Throw,Diferentes tipos de tiros libres - en distintos contextos (por ejemplo - 2 de 2 - 3 de 3 - técnico - etc.).
+16,Free Throw,Diferentes tipos de tiros libres - en distintos contextos (por ejemplo - 2 de 2 - 3 de 3 - técnico - etc.).
+17,Flagrant Free Throws,Tiros libres resultantes de faltas flagrantes.
+18,Flagrant Free Throws,Tiros libres resultantes de faltas flagrantes.
+19,Flagrant Free Throws,Tiros libres resultantes de faltas flagrantes.
+20,Flagrant Free Throws,Tiros libres resultantes de faltas flagrantes.
+21,Turnover Palming,Pérdida de balón por violación de "palmeo".
+22,Technical Free Throws,Tiros libres técnicos.
+25,Clear Path Free Throw,Tiros libres por una falta de "camino libre".
+26,Offensive Foul Charge,Una falta ofensiva de carga.
+2,Personal Fouls,Diferentes tipos de faltas personales - como bloqueo y falta en tiro.
+3,Personal Fouls,Diferentes tipos de faltas personales - como bloqueo y falta en tiro.
+4,Personal Fouls,Diferentes tipos de faltas personales - como bloqueo y falta en tiro.
+27,Personal Fouls,Diferentes tipos de faltas personales - como bloqueo y falta en tiro.
+28,Personal Fouls,Diferentes tipos de faltas personales - como bloqueo y falta en tiro.
+29,Personal Fouls,Diferentes tipos de faltas personales - como bloqueo y falta en tiro.
+31,Take Foul Transition,Una falta cometida para interrumpir una transición rápida.
+33,Punched Ball Turnover,Pérdida de balón por golpear el balón con el puño.
+36,Illegal Screen Turnover,Pérdida de balón por pantalla ilegal.
+39,Out of Bounds Turnover,Pérdida de balón al salir de los límites de la cancha.
+40,Lost Ball Turnover,Pérdida de balón por pérdida de control.
+41,Layup Shots,Diferentes tipos de bandejas - como en movimiento - inversa - etc.
+42,Layup Shots,Diferentes tipos de bandejas - como en movimiento - inversa - etc.
+43,Layup Shots,Diferentes tipos de bandejas - como en movimiento - inversa - etc.
+44,Layup Shots,Diferentes tipos de bandejas - como en movimiento - inversa - etc.
+45,Bad Pass Turnover,Pérdida de balón por un mal pase.
+46,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+47,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+48,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+49,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+50,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+51,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+52,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+53,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+54,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+55,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+56,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+57,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+58,Jump Shots and Hooks,Tiros en salto y tiros de gancho en diferentes contextos.
+63,Fadeaway Jumper MISS,Tiro en caída hacia atrás fallido.
+65,Hook Shots,Tiros de gancho con o sin asistencia.
+66,Hook Shots,Tiros de gancho con o sin asistencia.
+67,Hook Shots,Tiros de gancho con o sin asistencia.
+7,Assisted Dunk,Una clavada asistida.
+71,Finger Roll Layups,Diferentes tipos de bandejas "finger roll" - algunas con asistencia.
+72,Finger Roll Layups,Diferentes tipos de bandejas "finger roll" - algunas con asistencia.
+73,Finger Roll Layups,Diferentes tipos de bandejas "finger roll" - algunas con asistencia.
+74,Finger Roll Layups,Diferentes tipos de bandejas "finger roll" - algunas con asistencia.
+75,Finger Roll Layups,Diferentes tipos de bandejas "finger roll" - algunas con asistencia.
+76,Finger Roll Layups,Diferentes tipos de bandejas "finger roll" - algunas con asistencia.
+77,Driving Jump Shots,Tiros en salto en diferentes situaciones de conducción.
+78,Driving Jump Shots,Tiros en salto en diferentes situaciones de conducción.
+79,Driving Jump Shots,Tiros en salto en diferentes situaciones de conducción.
+8,3-Second Violation and Dunk,Violación de los 3 segundos y una clavada de "slam".
+80,Step Back 3PT Jump Shot MISS,Un tiro en salto de tres puntos en paso atrás - fallido.
+81,Bank Shots,Tiros usando el tablero - como pull-up - fadeaway y turnaround.
+82,Bank Shots,Tiros usando el tablero - como pull-up - fadeaway y turnaround.
+83,Bank Shots,Tiros usando el tablero - como pull-up - fadeaway y turnaround.
+84,Bank Shots,Tiros usando el tablero - como pull-up - fadeaway y turnaround.
+85,Bank Shots,Tiros usando el tablero - como pull-up - fadeaway y turnaround.
+86,Turnaround Fadeaway Shot MISS,Tiro en caída hacia atrás fallido.
+87,Putback Dunk,Una clavada después de un rebote.
+88,Driving Slam Dunk,Diferentes variantes de clavadas con asistencia o sin asistencia.
+89,Driving Slam Dunk,Diferentes variantes de clavadas con asistencia o sin asistencia.
+90,Driving Slam Dunk,Diferentes variantes de clavadas con asistencia o sin asistencia.
+92,Putback Dunk,Clavada después de un rebote de Gobert.
+93,Bank Shots and Hooks,Diferentes tipos de tiros usando el tablero o tiros de gancho.
+94,Bank Shots and Hooks,Diferentes tipos de tiros usando el tablero o tiros de gancho.
+95,Bank Shots and Hooks,Diferentes tipos de tiros usando el tablero o tiros de gancho.
+96,Bank Shots and Hooks,Diferentes tipos de tiros usando el tablero o tiros de gancho.
+97,Layup Tip Shot MISS,Una bandeja tip fallida.
+98,Cutting Layup Shots,Diferentes tipos de bandejas con cortes hacia la canasta.
+99,Cutting Layup Shots,Diferentes tipos de bandejas con cortes hacia la canasta.
+6,Layup MISS Driving,Una bandeja fallida mientras el jugador conducía hacia la canasta. Probablemente se refiere a un intento de anotación en movimiento que no tuvo éxito.
+5,Layup MISS,Un intento de bandeja fallido que habría generado puntos - pero no se concretó.
+9,Dunk AST 1' Driving,Una clavada con asistencia durante una conducción hacia la canasta. La notación "1'" podría indicar la distancia (aproximadamente 1 pie) o el tiempo de la jugada - enfatizando que fue en movimiento y asistida.
