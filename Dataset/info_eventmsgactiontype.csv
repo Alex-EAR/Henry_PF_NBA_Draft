@@ -1,0 +1,217 @@
+eventmsgtype,eventmsgactiontype,description
+1,0,Tiro en salto
+1,1,tiro en salto con asistencia de tres puntos
+1,2,tiro en salto en movimiento con asistencia de tres puntos
+1,3,gancho con asistencia
+1,4,tip-in (toque cercano) anotado
+1,5,bandeja con asistencia
+1,6,bandeja en penetración con asistencia
+1,7,dunk (dunk) con asistencia
+1,8,dunk (slam dunk) con asistencia
+1,9,dunk en penetración con asistencia
+1,40,bandeja con asistencia
+1,41,bandeja en movimiento con asistencia
+1,42,bandeja en penetración con asistencia
+1,43,alley-oop con asistencia
+1,44,bandeja en reversa con asistencia
+1,45,tiro en salto con asistencia de tres puntos
+1,46,tiro en salto en movimiento con asistencia
+1,47,tiro en salto con giro y asistencia
+1,48,dunk especifico con asistencia
+1,49,dunk en penetración con asistencia
+1,50,dunk en carrera con asistencia
+1,51,dunk en reversa con asistencia
+1,52,alley-oop en reversa con asistencia
+1,53,tiro en salto con tip-in (toque cercano) anotado
+1,54,tiro en salto con tip-in en movimiento de Hardaway Jr. y Muhammad anotado
+1,55,gancho de Payne con asistencia de Singler y Hardaway Jr.
+1,56,gancho en movimiento con asistencia
+1,57,gancho en penetración con asistencia
+1,58,gancho con giro y asistencia
+1,63,tiro en fadeaway con asistencia
+1,65,gancho en salto con asistencia
+1,66,tiro en salto con asistencia y tablero
+1,67,gancho con asistencia y tablero
+1,71,bandeja de "finger roll" con asistencia
+1,72,tiro en salto con tip-in de bandeja
+1,73,bandeja en reversa en penetración
+1,74,bandeja en reversa en movimiento
+1,75,bandeja de "finger roll" en penetración
+1,76,bandeja en movimiento de "finger roll"
+1,77,tiro en salto en penetración
+1,78,tiro en salto flotante
+1,79,tiro en salto "pull-up" con asistencia
+1,80,tiro en salto "step-back" de tres puntos con asistencia
+1,81,tiro "pull-up" con asistencia y tablero
+1,82,tiro en penetración con asistencia y tablero
+1,83,tiro en fadeaway con asistencia y tablero
+1,84,tiro en movimiento con asistencia y tablero
+1,85,tiro en giro con asistencia y tablero
+1,86,fadeaway con giro y asistencia
+1,87,dunk en tip-in
+1,88,dunk en penetración con asistencia
+1,89,dunk en reversa con múltiples jugadores involucrados
+1,90,dunk en carrera
+1,92,slam dunk en tip-in 
+1,93,gancho en penetración con asistencia y tablero
+1,94,gancho en salto con asistencia y tablero
+1,95,gancho en movimiento con asistencia y tablero
+1,96,gancho con giro y asistencia y tablero
+1,97,tiro en salto con tip-in en bandeja
+1,98,bandeja cortada con asistencia
+1,99,bandeja de "finger roll" cortada con asistencia
+1,100,alley-oop en bandeja en movimiento
+1,101,tiro en salto flotante en penetración
+1,102,tiro en salto flotante en penetración con tablero
+1,103,tiro en salto "pull-up" en movimiento de tres puntos
+1,104,tiro en salto "step-back" con asistencia y tablero
+1,105,tiro en salto en fadeaway y giro con asistencia y tablero
+1,106,alley-oop en dunk en movimiento
+1,107,dunk en tip-in
+1,108,dunk en corte con asistencia
+1,109,dunk en reversa en penetración con asistencia
+1,110,dunk en reversa en movimiento con asistencia
+2,0,Intento de tiro fallido de Young y otros jugadores
+2,1,Intento de tiro en salto fallido de tres puntos
+2,2,Intento de tiro en salto en movimiento fallido de tres puntos
+2,3,Intento de gancho fallido
+2,4,Intento de tip-in fallido
+2,5,Intento de bandeja fallido y bloqueado
+2,6,Intento de bandeja en penetración fallido y bloqueado
+2,7,Intento de dunk fallido y bloqueado
+2,8,Intento de dunk fallido con varios jugadores involucrados
+2,9,Intento de dunk en penetración fallido y bloqueado
+2,40,Intento de bandeja fallida bloqueada
+2,41,Intento de bandeja en movimiento fallida y bloqueada
+2,42,Intento de bandeja en penetración fallida y bloqueada
+2,43,Intento de alley-oop fallido
+2,44,Intento de bandeja en reversa fallida y bloqueada
+2,45,Intento de tiro en salto fallido de tres puntos
+2,46,Intento de tiro en salto en movimiento fallido
+2,47,Intento de tiro en salto fallido con giro
+2,48,Intento de dunk fallido con varios jugadores involucrados
+2,49,Intento de dunk en penetración fallido y bloqueado
+2,50,Intento de dunk en carrera fallido y bloqueado
+2,51,Intento de dunk en reversa fallido y bloqueado
+2,52,Intento de alley-oop en reversa fallido
+2,53,Intento de tip-in fallido
+2,54,Intento de tip-in en movimiento fallido con jugadores adicionales
+2,55,Intento de gancho fallido
+2,56,Intento de gancho en movimiento fallido
+2,57,Intento de gancho en penetración fallido
+2,58,Intento de gancho en giro fallido
+2,63,Intento de fadeaway fallido
+2,65,Intento de gancho en salto fallido
+2,66,Intento de tiro en salto fallido con tablero
+2,67,Intento de gancho fallido con tablero
+2,71,Intento de bandeja de "finger roll" fallido
+2,72,Intento de tip-in en bandeja fallida y bloqueada
+2,73,Intento de bandeja en reversa en penetración fallida
+2,74,Intento de bandeja en movimiento en reversa fallida
+2,75,Intento de bandeja de "finger roll" en penetración fallida
+2,76,Intento de bandeja en movimiento de "finger roll" fallida
+2,77,Intento de tiro en salto en penetración fallido y bloqueado
+2,78,Intento de tiro en salto flotante fallido
+2,79,Intento de tiro en salto "pull-up" fallido de tres puntos
+2,80,Intento de tiro en salto "step-back" fallido de tres puntos
+2,81,Intento de tiro "pull-up" fallido con tablero
+2,82,Intento de tiro en penetración fallido con tablero
+2,83,Intento de fadeaway fallido con tablero
+2,84,Intento de tiro en movimiento fallido con tablero
+2,85,Intento de tiro fallido con giro y tablero
+2,86,Intento de fadeaway fallido con giro
+2,87,Intento de dunk en tip-in fallido
+2,88,Intento de dunk en penetración fallido
+2,92,Intento de dunk en tip-in fallido de Muscala
+2,93,Intento de gancho en penetración fallido con tablero
+2,96,Intento de gancho fallido con giro y tablero
+2,97,Intento de tip-in en bandeja fallida
+2,98,Intento de bandeja cortada fallida y bloqueada
+2,99,Intento de bandeja de "finger roll" cortada fallida
+2,100,Intento de alley-oop en bandeja fallido y bloqueado
+2,101,Intento de tiro en salto flotante fallido
+2,102,Intento de tiro en salto flotante fallido en penetración con tablero
+2,103,Intento de tiro en salto "pull-up" fallido de tres puntos en movimiento
+2,104,Intento de tiro en salto "step-back" fallido con tablero
+2,105,Intento de tiro en salto fallido con fadeaway y giro con tablero
+2,106,Intento de alley-oop en dunk fallido en movimiento
+2,107,Intento de dunk en tip-in fallido
+2,108,Intento de dunk en corte fallido y bloqueado
+2,109,Intento de dunk en reversa fallido en penetración
+2,110,Intento de dunk en reversa fallido en movimiento
+3,10,Tiro libre 1 punto.
+3,11,Tiro libre 1/2 puntos
+3,12,Tiro libre 2/2 puntos
+3,13,Tiro libre 1/3 puntos
+3,14,Tiro libre 2/3 puntos
+3,15,Tiro libre 3/3 puntos
+3,16,Tiro libre técnico.
+3,18,Tiro libre flagrante 1/2 puntos
+3,19,Tiro libre flagrante 2/2 puntos
+3,20,Tiro libre flagrante 1 punto
+3,21,Tiro libre tecnico 1/2 puntos
+3,22,Tiro libre flagrante 2/2 puntos
+3,25,Tiro libre path clear 1/2 puntos
+3,26,Tiro libre path clear 2/2 puntos
+3,27,Tiro libre flagrante 1/3 puntos
+3,28,Tiro libre flagrante 2/3 puntos
+3,29,Tiro libre flagrante 3/3 puntos
+4,0,Rebote ofensivo tomado
+4,1,Rebote defensivo tomado
+5,0,Pérdida de balón
+5,1,Pérdida de balón por pase erróneo - robo
+5,2,Pérdida de balón por robo
+5,4,Pérdida de balón por caminata
+5,5,Pérdida de balón por falta.
+5,6,Pérdida de balón por doble dribbling.
+5,7,Pérdida de balón por dribbling discontinuado.
+5,8,Pérdida de balón por violación de 3 segundos
+5,12,Pérdida de balón en saque.
+5,13,Pérdida de balón por en zona trasera.
+5,15,Pérdida de balón por goaltending ofensivo.
+5,17,Pérdida de balón por violación en la zona de tiro.
+5,18,Pérdida de balón por violación en salto.
+5,19,Pérdida de balón por violación de balón pateado.
+5,20,Pérdida de balón por pase ilegal.
+5,21,Pérdida de balón por palmeo
+5,33,Pérdida de balón por punching
+5,36,Pérdida de balón por pantalleo ilegal.
+5,37,Pérdida de balón por falta ofensiva.
+5,39,Pérdida de balón por fuera de banda.
+5,40,Pérdida por balón fuera de campo.
+5,41,Pérdida de balón luego de robo
+5,43,Pérdida por violación fuera de banda
+5,45,Pérdida por pase fuera de banda.
+6,1,Falta personal.
+6,2,Falta en tiro.
+6,3,Falta de jugador con balón.
+6,4,Falta ofensiva.
+6,5,Falta interna.
+6,6,Falta fuera de jugada.
+6,9,Falta de jugador de control de balón.
+6,10,(Sin descripción).
+6,11,Falta técnica
+6,12,Falta no deportiva
+6,13,Falta técnica por colgarse del aro.
+6,14,Falta flagrante tipo 1.
+6,15,Falta flagrante tipo 2.
+6,16,(Sin descripción).
+6,17,Falta técnica de defensa
+6,19,Falta por burlas
+6,26,Falta por carga ofensiva.
+6,27,Falta personal de bloqueo.
+6,28,Falta personal al tomar el balón.
+6,29,Falta de bloqueo en tiro.
+6,31,Falta en situacion de transición.
+7,2,Violación de goaltending defensivo.
+7,3,Violación de la zona.
+7,4,Violación en salto.
+7,5,Violación de balón pateado.
+7,6,Violación de zona doble.
+8,0,sustitucion
+9,2,tiempo muerto corto
+10,0,Toque de balón en salto.
+10,1,Toque de balón luego de cambio de control en salto.
+11,1,Expulsion por segunda falta
+11,3,Expulsion directa
+11,4,Expulsion - otros
