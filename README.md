@@ -20,44 +20,18 @@ La propuesta "Análisis de datos del Draft de la NBA para la mejora en el reclut
 
 ### Sábado 2 de noviembre a martes 5 de noviembre
 
-ETL
-
-Identificación de entidades/tablas necesarias y definición de relaciones
-
-Diseño de flujo de ingesta de datos inicial y normalización
-
-Creación del repositorio y definición de permisos
-
-Subida del Dataset y estructuración de la carpeta en la nube para el análisis
-
-Creación del diseño y la estructura de la base de datos en el entorno de SQL
-
-Creación el Diagrama de Entidad Relación (DER)
+Se lleva adelante el proceso de ETL, atendiendo a las tareas especificadas en el Sprint 1: Identificación de entidades/tablas necesarias y definición de relaciones; Diseño de flujo de ingesta de datos inicial y normalización; Creación del repositorio y definición de permisos; Subida del Dataset y estructuración de la carpeta en la nube para el análisis; Creación del diseño y la estructura de la base de datos en el entorno de SQL; Creación el Diagrama de Entidad Relación (DER).
 
 **Carpetas y archivos disponibles**: 
 
 (Carpeta) Dataset Comprimido - (Subcarpeta) xlsx (con columnas formateadas) - Comprimido en partes. Es mas rápida la descarga y descompresión que la transformación de datos - Compresión en partes de las carpetas 'Filtrados' y 'Originales'. En la extracción usar la opción 'Extraer aquí' para que mantenga compatibilidad con scripts en el repositorio que accedan a archivos de estas ubicaciones - info_eventmsgtype.csv es una tabla con una descripción simple de los codigos de la columna 'eventmsgtype' en la tabla 'play_by_play' - 
 
-(Carpeta) Limpieza y transformaciones: - .ipynb con 1er limpieza y filtro - .txt con descripción de la primer limpieza - .ipynb con transformación de los .csv filtrados a .xlsx (con columnas en formato adecuado) - .ipynb con exportación de los .csv filtrados a una BD vacia previamente creada en SQL Server.
+(Carpeta) Limpieza y transformaciones: - .ipynb con 1er limpieza y filtro - .txt con descripción de la primer limpieza - .ipynb con transformación de los .csv filtrados a .xlsx (con columnas en formato adecuado) - .ipynb con exportación de los .csv filtrados a una BD vacia previamente creada en SQL Server
 
-### Martes 5 de noviembre y miércoles 6 de noviembre
+### Miércoles 6 de noviembre y jueves 7 de noviembre
 
-EDA
+Se define el método de automatización para la actualización de datos y se lleva adelante el proceso de EDA considerando los objetivos del proyecto y análisis estadístico inicial, avanzado y modelado, permitiendo identificar patrones clave que puedan ayudar a describir el rendimiento de los equipos y jugadores y correlaciones. Asimismo, se prepara la presentación de resultados para la Demo 1, considerando ejes del proyecto, ETL, EDA y Mockup.
 
-Exploración de los datos considerando los objetivos del proyecto.
+### Viernes 8 de noviembre
 
-### Miércoles 6 de noviembre a viernes 8 de noviembre
-
-ETL
-
-Definición del método de automatización para la actualización de datos.
-
-EDA
-
-Análisis estadísticos avanzado y modelado, permitiendo identificar patrones clave y correlaciones que puedan ayudar a describir el rendimiento de los jugadores.
-
-DASHBOARD
-
-Desarrollo del mockup.
-
-
+Se realiza la presentación de resultados en la Demo 1, considerando ejes del proyecto, ETL, EDA y Mockup.
