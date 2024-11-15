@@ -33,11 +33,13 @@ A continuación, se detalla el contenido de cada carpeta y se ofrecen recomendac
    - `Tablero_Scrum.png`: Imagen que muestra el tablero Scrum utilizado para la planificación y gestión de tareas del proyecto.
    - **Descripción**: Esta carpeta contiene imágenes relacionadas con la planificación y el desarrollo del proyecto, útil para obtener contexto sobre el progreso y organización del equipo.
 
-### 6. **Archivos de Análisis**
+### 6. **EDA**
    - `EDA.ipynb`: Cuaderno de Jupyter que contiene el Análisis Exploratorio de Datos (EDA).
    - `PI_EDA.docx`: Documento en formato Word con un informe detallado del EDA.
-   - `README.md`: Este archivo README que contiene la descripción de todo el proyecto y sus componentes.
-   - **Descripción**: Aquí se encuentran los análisis y reportes que documentan la exploración inicial de los datos, ideales para entender los primeros hallazgos del proyecto.
+   
+
+`README.md`: Este archivo README que contiene la descripción de todo el proyecto y sus componentes.
+- **Descripción**: Aquí se encuentran los análisis y reportes que documentan la exploración inicial de los datos, ideales para entender los primeros hallazgos del proyecto.
 
 ## Recomendaciones de Navegación
 
