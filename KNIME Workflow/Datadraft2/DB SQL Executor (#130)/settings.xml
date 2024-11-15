@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="statementSeparator" type="xstring" value=";"/>
+        <entry key="statement" type="xstring" value="-- Crear una tabla con los IDs únicos de &quot;game_id&quot; de la tabla &quot;game&quot;%%00010 CREATE TABLE unique_game_ids AS%%00010SELECT DISTINCT &quot;game_id&quot; FROM &quot;game&quot;;%%00010%%00010-- Crear una tabla con los IDs únicos de &quot;player_id&quot; de la tabla &quot;draft_combine_stats&quot;%%00010CREATE TABLE unique_player_ids AS%%00010SELECT DISTINCT &quot;player_id&quot; FROM &quot;draft_combine_stats&quot;;%%00010%%00010-- Filtrar tablas que contienen &quot;player_id&quot;%%00010%%00010-- Elimina los registros de &quot;common_player_info&quot; que no tienen &quot;player_id&quot; en &quot;unique_player_ids&quot;%%00010DELETE FROM &quot;common_player_info&quot;%%00010WHERE &quot;player_id&quot; NOT IN (SELECT &quot;player_id&quot; FROM &quot;unique_player_ids&quot;);%%00010%%00010-- Elimina los registros de &quot;inactive_players&quot; que no tienen &quot;player_id&quot; en &quot;unique_player_ids&quot;%%00010DELETE FROM &quot;inactive_players&quot;%%00010WHERE &quot;player_id&quot; NOT IN (SELECT &quot;player_id&quot; FROM &quot;unique_player_ids&quot;);%%00010%%00010-- Elimina los registros de &quot;player&quot; que no tienen &quot;player_id&quot; en &quot;unique_player_ids&quot;%%00010DELETE FROM &quot;player&quot;%%00010WHERE &quot;player_id&quot; NOT IN (SELECT &quot;player_id&quot; FROM &quot;unique_player_ids&quot;);%%00010%%00010-- Filtrar tablas que contienen &quot;game_id&quot;%%00010%%00010-- Elimina los registros de &quot;game_info&quot; que no tienen &quot;game_id&quot; en &quot;unique_game_ids&quot;%%00010DELETE FROM &quot;game_info&quot;%%00010WHERE &quot;game_id&quot; NOT IN (SELECT &quot;game_id&quot; FROM &quot;unique_game_ids&quot;);%%00010%%00010-- Elimina los registros de &quot;line_score&quot; que no tienen &quot;game_id&quot; en &quot;unique_game_ids&quot;%%00010DELETE FROM &quot;line_score&quot;%%00010WHERE &quot;game_id&quot; NOT IN (SELECT &quot;game_id&quot; FROM &quot;unique_game_ids&quot;);%%00010%%00010-- Filtrar &quot;play_by_play&quot; por &quot;player_id&quot; y &quot;game_id&quot;%%00010DELETE FROM &quot;play_by_play&quot;%%00010WHERE &quot;player1_id&quot; NOT IN (SELECT &quot;player_id&quot; FROM &quot;unique_player_ids&quot;)%%00010   AND &quot;player2_id&quot; NOT IN (SELECT &quot;player_id&quot; FROM &quot;unique_player_ids&quot;)%%00010   AND &quot;player3_id&quot; NOT IN (SELECT &quot;player_id&quot; FROM &quot;unique_player_ids&quot;)%%00010   AND &quot;game_id&quot; NOT IN (SELECT &quot;game_id&quot; FROM &quot;unique_game_ids&quot;);%%00010%%00010-- Eliminar las tablas temporales de IDs únicos%%00010DROP TABLE &quot;unique_game_ids&quot;;%%00010DROP TABLE &quot;unique_player_ids&quot;;%%00010%%00010%%00010"/>
+        <config key="multipleStatement_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="multipleStatement" type="xboolean" value="true"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Filtros ID"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.manipulation.executor.DBExecutorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="DB SQL Executor"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409010954"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="DB SQL Executor"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

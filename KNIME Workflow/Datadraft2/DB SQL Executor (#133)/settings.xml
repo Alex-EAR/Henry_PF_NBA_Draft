@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="statementSeparator" type="xstring" value=";"/>
+        <entry key="statement" type="xstring" value="-- 1. Crear una tabla play_by_play_temp con las columnas necesarias y renombrar &quot;Unnamed: 0&quot; a play_id%%00010CREATE TABLE play_by_play_temp AS   %%00010SELECT %%00010    &quot;Unnamed: 0&quot; AS play_id,%%00010    player1_id, player1_name, player1_team_id, player1_team_city, player1_team_nickname,%%00010    player2_id, player2_name, player2_team_id, player2_team_city, player2_team_nickname,%%00010    player3_id, player3_name, player3_team_id, player3_team_city, player3_team_nickname%%00010FROM play_by_play;%%00010%%00010-- 2. Crear la tabla players_long en formato &quot;largo&quot; usando UNION ALL%%00010CREATE TABLE players_long AS%%00010SELECT play_id, 'player1' AS player_type, player1_id AS player_id, player1_name AS player_name, %%00010       player1_team_id AS team_id, player1_team_city AS team_city, player1_team_nickname AS team_nickname%%00010FROM play_by_play_temp%%00010UNION ALL%%00010SELECT play_id, 'player2', player2_id, player2_name, player2_team_id, player2_team_city, player2_team_nickname%%00010FROM play_by_play_temp%%00010UNION ALL%%00010SELECT play_id, 'player3', player3_id, player3_name, player3_team_id, player3_team_city, player3_team_nickname%%00010FROM play_by_play_temp;%%00010%%00010-- 3. Crear la tabla briefed_plays a partir de players_long%%00010CREATE TABLE briefed_plays AS%%00010SELECT %%00010    rowid AS briefed_id, -- Usamos rowid para generar IDs únicos%%00010    play_id,%%00010    player_type,%%00010    player_id,%%00010    player_name,%%00010    team_id,%%00010    team_city,%%00010    team_nickname%%00010FROM players_long;%%00010%%00010-- 4. Eliminar las tablas temporales play_by_play_temp y players_long%%00010DROP TABLE play_by_play_temp;%%00010DROP TABLE players_long;%%00010%%00010-- 5. Crear una tabla game_data_unique sin duplicados en game_id%%00010CREATE TABLE game_data_unique AS%%00010-- 1. Crear una tabla permanente play_by_play_temp con las columnas necesarias y renombrar &quot;Unnamed: 0&quot; a play_id%%00010CREATE TABLE play_by_play_temp AS   %%00010SELECT %%00010    &quot;Unnamed: 0&quot; AS play_id,%%00010    player1_id, player1_name, player1_team_id, player1_team_city, player1_team_nickname,%%00010    player2_id, player2_name, player2_team_id, player2_team_city, player2_team_nickname,%%00010    player3_id, player3_name, player3_team_id, player3_team_city, player3_team_nickname%%00010FROM play_by_play;%%00010%%00010-- 2. Crear la tabla players_long en formato &quot;largo&quot; usando UNION ALL%%00010CREATE TABLE players_long AS%%00010SELECT play_id, 'player1' AS player_type, player1_id AS player_id, player1_name AS player_name, %%00010       player1_team_id AS team_id, player1_team_city AS team_city, player1_team_nickname AS team_nickname%%00010FROM play_by_play_temp%%00010UNION ALL%%00010SELECT play_id, 'player2', player2_id, player2_name, player2_team_id, player2_team_city, player2_team_nickname%%00010FROM play_by_play_temp%%00010UNION ALL%%00010SELECT play_id, 'player3', player3_id, player3_name, player3_team_id, player3_team_city, player3_team_nickname%%00010FROM play_by_play_temp;%%00010%%00010-- 3. Crear la tabla permanente briefed_plays a partir de players_long%%00010CREATE TABLE briefed_plays AS%%00010SELECT %%00010    rowid AS briefed_id, -- Usamos rowid para generar IDs únicos%%00010    play_id,%%00010    player_type,%%00010    player_id,%%00010    player_name,%%00010    team_id,%%00010    team_city,%%00010    team_nickname%%00010FROM players_long;%%00010%%00010-- 4. Eliminar las tablas intermedias play_by_play_temp y players_long%%00010DROP TABLE play_by_play_temp;%%00010DROP TABLE players_long;%%00010%%00010-- 5. Crear una tabla game_data_unique sin duplicados en game_id%%00010CREATE TABLE game_data_unique AS%%00010SELECT * FROM game_data%%00010GROUP BY game_id; -- Agrupamos por game_id para eliminar duplicados%%00010%%00010-- 6. Reemplazar la tabla game_data con game_data_unique%%00010DROP TABLE game_data;%%00010ALTER TABLE game_data_unique RENAME TO game_data;%%00010%%00010-- 7. Crear tablas intermedias para columnas 'home' y 'away' y limpiarlas%%00010CREATE TABLE df_home AS%%00010SELECT game_id, column_name AS team_column%%00010FROM game_data%%00010WHERE column_name LIKE '%_home';%%00010%%00010CREATE TABLE df_away AS%%00010SELECT game_id, column_name AS team_column%%00010FROM game_data%%00010WHERE column_name LIKE '%_away';%%00010%%00010-- 8. Añadir columna location y actualizar el valor%%00010ALTER TABLE df_home ADD COLUMN location TEXT;%%00010UPDATE df_home SET location = 'home';%%00010%%00010ALTER TABLE df_away ADD COLUMN location TEXT;%%00010UPDATE df_away SET location = 'away';%%00010%%00010-- 9. Concatenar df_home y df_away en briefed_games (tabla permanente)%%00010CREATE TABLE briefed_games AS%%00010SELECT rowid AS briefed_id, game_id, team_column, location%%00010FROM df_home%%00010UNION ALL%%00010SELECT rowid, game_id, team_column, location%%00010FROM df_away;%%00010%%00010-- 10. Eliminar las tablas intermedias df_home y df_away%%00010DROP TABLE df_home;%%00010DROP TABLE df_away;%%00010"/>
+        <config key="multipleStatement_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="multipleStatement" type="xboolean" value="true"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Database connection does not exist. Please reset the corresponding connector node."/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.database.node.manipulation.executor.DBExecutorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="DB SQL Executor"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409010954"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="DB SQL Executor"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

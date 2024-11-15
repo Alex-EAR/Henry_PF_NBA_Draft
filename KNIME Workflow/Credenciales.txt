@@ -1,0 +1,4 @@
+Servidor: drafted.database.windows.net
+base de datos: Drafted
+usuario: drafted 
+contraseña: Datadraft2024

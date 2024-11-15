@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="leftColumns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="55"/>
+                <entry key="0" type="xstring" value="season_id"/>
+                <entry key="1" type="xstring" value="team_id_home"/>
+                <entry key="2" type="xstring" value="team_abbreviation_home"/>
+                <entry key="3" type="xstring" value="team_name_home"/>
+                <entry key="4" type="xstring" value="game_id"/>
+                <entry key="5" type="xstring" value="game_date"/>
+                <entry key="6" type="xstring" value="matchup_home"/>
+                <entry key="7" type="xstring" value="wl_home"/>
+                <entry key="8" type="xstring" value="min"/>
+                <entry key="9" type="xstring" value="fgm_home"/>
+                <entry key="10" type="xstring" value="fga_home"/>
+                <entry key="11" type="xstring" value="fg_pct_home"/>
+                <entry key="12" type="xstring" value="fg3m_home"/>
+                <entry key="13" type="xstring" value="fg3a_home"/>
+                <entry key="14" type="xstring" value="fg3_pct_home"/>
+                <entry key="15" type="xstring" value="ftm_home"/>
+                <entry key="16" type="xstring" value="fta_home"/>
+                <entry key="17" type="xstring" value="ft_pct_home"/>
+                <entry key="18" type="xstring" value="oreb_home"/>
+                <entry key="19" type="xstring" value="dreb_home"/>
+                <entry key="20" type="xstring" value="reb_home"/>
+                <entry key="21" type="xstring" value="ast_home"/>
+                <entry key="22" type="xstring" value="stl_home"/>
+                <entry key="23" type="xstring" value="blk_home"/>
+                <entry key="24" type="xstring" value="tov_home"/>
+                <entry key="25" type="xstring" value="pf_home"/>
+                <entry key="26" type="xstring" value="pts_home"/>
+                <entry key="27" type="xstring" value="plus_minus_home"/>
+                <entry key="28" type="xstring" value="video_available_home"/>
+                <entry key="29" type="xstring" value="team_id_away"/>
+                <entry key="30" type="xstring" value="team_abbreviation_away"/>
+                <entry key="31" type="xstring" value="team_name_away"/>
+                <entry key="32" type="xstring" value="matchup_away"/>
+                <entry key="33" type="xstring" value="wl_away"/>
+                <entry key="34" type="xstring" value="fgm_away"/>
+                <entry key="35" type="xstring" value="fga_away"/>
+                <entry key="36" type="xstring" value="fg_pct_away"/>
+                <entry key="37" type="xstring" value="fg3m_away"/>
+                <entry key="38" type="xstring" value="fg3a_away"/>
+                <entry key="39" type="xstring" value="fg3_pct_away"/>
+                <entry key="40" type="xstring" value="ftm_away"/>
+                <entry key="41" type="xstring" value="fta_away"/>
+                <entry key="42" type="xstring" value="ft_pct_away"/>
+                <entry key="43" type="xstring" value="oreb_away"/>
+                <entry key="44" type="xstring" value="dreb_away"/>
+                <entry key="45" type="xstring" value="reb_away"/>
+                <entry key="46" type="xstring" value="ast_away"/>
+                <entry key="47" type="xstring" value="stl_away"/>
+                <entry key="48" type="xstring" value="blk_away"/>
+                <entry key="49" type="xstring" value="tov_away"/>
+                <entry key="50" type="xstring" value="pf_away"/>
+                <entry key="51" type="xstring" value="pts_away"/>
+                <entry key="52" type="xstring" value="plus_minus_away"/>
+                <entry key="53" type="xstring" value="video_available_away"/>
+                <entry key="54" type="xstring" value="season_type"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.time.localdatetime.LocalDateTimeValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="rightColumns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="game_id"/>
+                <entry key="1" type="xstring" value="game_date"/>
+                <entry key="2" type="xstring" value="attendance"/>
+                <entry key="3" type="xstring" value="game_time"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.time.localdatetime.LocalDateTimeValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="joinMode_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="joinMode" type="xstring" value="Inner Join"/>
+        <config key="andComposition_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="andComposition" type="xboolean" value="true"/>
+        <config key="leftJoinOnColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="leftJoinOnColumns">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="game_id"/>
+        </config>
+        <config key="rightJoinOnColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="rightJoinOnColumns">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="game_id"/>
+        </config>
+        <entry key="duplicateHandling" type="xstring" value="APPEND_SUFFIX_AUTOMATIC"/>
+        <config key="customSuffix_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="customSuffix" type="xstring" value="(*)"/>
+        <config key="filterLeftJoinOnColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="filterLeftJoinOnColumns" type="xboolean" value="false"/>
+        <config key="filterRightJoinOnColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="filterRightJoinOnColumns" type="xboolean" value="true"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="game_data"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.manipulation.joiner.DBJoinNodeFactory"/>
+    <entry key="node-name" type="xstring" value="DB Joiner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409010954"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="DB Joiner"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
